@@ -192,13 +192,3 @@ Where $h(x)$ is the path length in the isolation tree, $c(n)$ is the average pat
 
 ---
 
-## 🎯 Viva & Presentation Q&A
-
-**Q1: Why compare spaCy with a Transformer on civic grievance text?**  
-*Answer:* Indian municipal complaints frequently exhibit code-switching (English + Marathi/Hindi loanwords like *kachra*, *khadda*). spaCy provides a high-speed lexical baseline that works well for known gazetteer terms (e.g. *Kothrud*). Transformers provide sub-word representation and contextual attention, resolving ambiguous phrasing and code-mixed complaint patterns.
-
-**Q2: What is the purpose of converting NLP entities into an RDF Knowledge Graph?**  
-*Answer:* Unstructured complaints cannot be queried relationally across multiple dimensions. By modeling complaints as RDF triples, we can link them to administrative wards and departments using semantic standards (`OWL`, `RDFS`) and execute expressive `SPARQL` queries to power cross-departmental analytics.
-
-**Q3: Why use Isolation Forest rather than simple thresholding for anomaly detection?**  
-*Answer:* Civic complaint volume varies naturally by ward size and day of the week. Hard thresholds create false positives in high-density wards (e.g. Shivajinagar) and miss dangerous localized surges in smaller wards. Isolation Forest isolates anomalies across multi-dimensional features (rolling mean, surge ratio, velocity) without assuming a normal distribution.
