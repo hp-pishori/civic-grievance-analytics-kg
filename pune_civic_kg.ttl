@@ -1,0 +1,636 @@
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix pmc: <http://smartcity.pune.gov.in/ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://smartcity.pune.gov.in/ontology#complaint/PMC-2024-0001> a pmc:Complaint ;
+    pmc:complaint_id "PMC-2024-0001"^^xsd:string ;
+    pmc:extraction_model "spaCy_EntityRuler_Baseline"^^xsd:string ;
+    pmc:filing_date "2024-03-01"^^xsd:date ;
+    pmc:has_issue <http://smartcity.pune.gov.in/ontology#issue/Potholes__Road_Damage> ;
+    pmc:has_severity <http://smartcity.pune.gov.in/ontology#severity/HIGH> ;
+    pmc:located_in <http://smartcity.pune.gov.in/ontology#ward/Ward_12_-_Kothrud-Bavdhan> ;
+    pmc:raw_text "Major deep potholes on DP road near Kothrud depot causing severe traffic jams. Urgent repair required."^^xsd:string ;
+    pmc:status "Escalated"^^xsd:string .
+
+<http://smartcity.pune.gov.in/ontology#complaint/PMC-2024-0002> a pmc:Complaint ;
+    pmc:complaint_id "PMC-2024-0002"^^xsd:string ;
+    pmc:extraction_model "spaCy_EntityRuler_Baseline"^^xsd:string ;
+    pmc:filing_date "2024-03-01"^^xsd:date ;
+    pmc:has_issue <http://smartcity.pune.gov.in/ontology#issue/Garbage_Dumping> ;
+    pmc:has_severity <http://smartcity.pune.gov.in/ontology#severity/MEDIUM> ;
+    pmc:located_in <http://smartcity.pune.gov.in/ontology#ward/Ward_02_-_Aundh-Baner-Balewadi> ;
+    pmc:raw_text "Garbage dumping along main canal road in Baner. Foul smell and stray dogs everywhere since 3 days."^^xsd:string ;
+    pmc:status "Open"^^xsd:string .
+
+<http://smartcity.pune.gov.in/ontology#complaint/PMC-2024-0003> a pmc:Complaint ;
+    pmc:complaint_id "PMC-2024-0003"^^xsd:string ;
+    pmc:extraction_model "spaCy_EntityRuler_Baseline"^^xsd:string ;
+    pmc:filing_date "2024-03-02"^^xsd:date ;
+    pmc:has_issue <http://smartcity.pune.gov.in/ontology#issue/Drainage__Sewerage_Leak> ;
+    pmc:has_severity <http://smartcity.pune.gov.in/ontology#severity/LOW> ;
+    pmc:located_in <http://smartcity.pune.gov.in/ontology#ward/Ward_01_-_Hinjewadi-Maan_IT_Corridor> ;
+    pmc:raw_text "Underground drainage pipeline chocked and leaking black sewage water on Hinjewadi Phase 1 chowk."^^xsd:string ;
+    pmc:status "Escalated"^^xsd:string .
+
+<http://smartcity.pune.gov.in/ontology#complaint/PMC-2024-0004> a pmc:Complaint ;
+    pmc:complaint_id "PMC-2024-0004"^^xsd:string ;
+    pmc:extraction_model "spaCy_EntityRuler_Baseline"^^xsd:string ;
+    pmc:filing_date "2024-03-02"^^xsd:date ;
+    pmc:has_issue <http://smartcity.pune.gov.in/ontology#issue/Water_Supply_Disruption> ;
+    pmc:has_severity <http://smartcity.pune.gov.in/ontology#severity/LOW> ;
+    pmc:located_in <http://smartcity.pune.gov.in/ontology#ward/Ward_07_-_Shivajinagar-Ghole_Road> ;
+    pmc:raw_text "Low pressure dirty water supply in Shivajinagar near Modern College. Water smells like sewage."^^xsd:string ;
+    pmc:status "Escalated"^^xsd:string .
+
+<http://smartcity.pune.gov.in/ontology#complaint/PMC-2024-0005> a pmc:Complaint ;
+    pmc:complaint_id "PMC-2024-0005"^^xsd:string ;
+    pmc:extraction_model "spaCy_EntityRuler_Baseline"^^xsd:string ;
+    pmc:filing_date "2024-03-03"^^xsd:date ;
+    pmc:has_issue <http://smartcity.pune.gov.in/ontology#issue/Streetlight_Outage> ;
+    pmc:has_severity <http://smartcity.pune.gov.in/ontology#severity/LOW> ;
+    pmc:located_in <http://smartcity.pune.gov.in/ontology#ward/Ward_02_-_Aundh-Baner-Balewadi> ;
+    pmc:raw_text "Streetlight outage on IT park link road Aundh. Complete darkness for pedestrians at night."^^xsd:string ;
+    pmc:status "Open"^^xsd:string .
+
+<http://smartcity.pune.gov.in/ontology#complaint/PMC-2024-0006> a pmc:Complaint ;
+    pmc:complaint_id "PMC-2024-0006"^^xsd:string ;
+    pmc:extraction_model "spaCy_EntityRuler_Baseline"^^xsd:string ;
+    pmc:filing_date "2024-03-03"^^xsd:date ;
+    pmc:has_issue <http://smartcity.pune.gov.in/ontology#issue/Garbage_Dumping> ;
+    pmc:has_severity <http://smartcity.pune.gov.in/ontology#severity/LOW> ;
+    pmc:located_in <http://smartcity.pune.gov.in/ontology#ward/Ward_19_-_Hadapsar-Mundhwa> ;
+    pmc:raw_text "Huge pile of untreated garbage kachra dumped outside Magarpatta South Gate. Swarms of flies."^^xsd:string ;
+    pmc:status "Escalated"^^xsd:string .
+
+<http://smartcity.pune.gov.in/ontology#complaint/PMC-2024-0007> a pmc:Complaint ;
+    pmc:complaint_id "PMC-2024-0007"^^xsd:string ;
+    pmc:extraction_model "spaCy_EntityRuler_Baseline"^^xsd:string ;
+    pmc:filing_date "2024-03-04"^^xsd:date ;
+    pmc:has_issue <http://smartcity.pune.gov.in/ontology#issue/Illegal_Encroachment> ;
+    pmc:has_severity <http://smartcity.pune.gov.in/ontology#severity/LOW> ;
+    pmc:located_in <http://smartcity.pune.gov.in/ontology#ward/Ward_09_-_Kasba-Vishrambaug_Wada> ;
+    pmc:raw_text "Illegal vegetable vendors encroaching the entire footpath near Swargate bus terminal."^^xsd:string ;
+    pmc:status "Open"^^xsd:string .
+
+<http://smartcity.pune.gov.in/ontology#complaint/PMC-2024-0008> a pmc:Complaint ;
+    pmc:complaint_id "PMC-2024-0008"^^xsd:string ;
+    pmc:extraction_model "spaCy_EntityRuler_Baseline"^^xsd:string ;
+    pmc:filing_date "2024-03-04"^^xsd:date ;
+    pmc:has_issue <http://smartcity.pune.gov.in/ontology#issue/Potholes__Road_Damage> ;
+    pmc:has_severity <http://smartcity.pune.gov.in/ontology#severity/LOW> ;
+    pmc:located_in <http://smartcity.pune.gov.in/ontology#ward/Ward_01_-_Wakad-Tathawade> ;
+    pmc:raw_text "Multiple potholes on bypass junction near Wakad bridge. Two-wheelers slipping daily."^^xsd:string ;
+    pmc:status "Escalated"^^xsd:string .
+
+<http://smartcity.pune.gov.in/ontology#complaint/PMC-2024-0009> a pmc:Complaint ;
+    pmc:complaint_id "PMC-2024-0009"^^xsd:string ;
+    pmc:extraction_model "spaCy_EntityRuler_Baseline"^^xsd:string ;
+    pmc:filing_date "2024-03-05"^^xsd:date ;
+    pmc:has_issue <http://smartcity.pune.gov.in/ontology#issue/Drainage__Sewerage_Leak> ;
+    pmc:has_severity <http://smartcity.pune.gov.in/ontology#severity/HIGH> ;
+    pmc:located_in <http://smartcity.pune.gov.in/ontology#ward/Ward_07_-_Shivajinagar-Ghole_Road> ;
+    pmc:raw_text "Drainage manhole cover missing on Karve Road Kothrud. Extreme danger of fatal accident."^^xsd:string ;
+    pmc:status "Escalated"^^xsd:string .
+
+<http://smartcity.pune.gov.in/ontology#complaint/PMC-2024-0010> a pmc:Complaint ;
+    pmc:complaint_id "PMC-2024-0010"^^xsd:string ;
+    pmc:extraction_model "spaCy_EntityRuler_Baseline"^^xsd:string ;
+    pmc:filing_date "2024-03-05"^^xsd:date ;
+    pmc:has_issue <http://smartcity.pune.gov.in/ontology#issue/Water_Supply_Disruption> ;
+    pmc:has_severity <http://smartcity.pune.gov.in/ontology#severity/MEDIUM> ;
+    pmc:located_in <http://smartcity.pune.gov.in/ontology#ward/Ward_04_-_Ahmednagar_Road-Viman_Nagar> ;
+    pmc:raw_text "No PMC water supply in Kalyani Nagar lane 7 since yesterday morning. Tanker required."^^xsd:string ;
+    pmc:status "Open"^^xsd:string .
+
+<http://smartcity.pune.gov.in/ontology#complaint/PMC-2024-0011> a pmc:Complaint ;
+    pmc:complaint_id "PMC-2024-0011"^^xsd:string ;
+    pmc:extraction_model "spaCy_EntityRuler_Baseline"^^xsd:string ;
+    pmc:filing_date "2024-03-06"^^xsd:date ;
+    pmc:has_issue <http://smartcity.pune.gov.in/ontology#issue/Streetlight_Outage> ;
+    pmc:has_severity <http://smartcity.pune.gov.in/ontology#severity/LOW> ;
+    pmc:located_in <http://smartcity.pune.gov.in/ontology#ward/Ward_06_-_Dhole_Patil_Road> ;
+    pmc:raw_text "Flickering streetlights on main road in Koregaon Park near Lane 4. Needs bulb replacement."^^xsd:string ;
+    pmc:status "Open"^^xsd:string .
+
+<http://smartcity.pune.gov.in/ontology#complaint/PMC-2024-0012> a pmc:Complaint ;
+    pmc:complaint_id "PMC-2024-0012"^^xsd:string ;
+    pmc:extraction_model "spaCy_EntityRuler_Baseline"^^xsd:string ;
+    pmc:filing_date "2024-03-06"^^xsd:date ;
+    pmc:has_issue <http://smartcity.pune.gov.in/ontology#issue/Garbage_Dumping> ;
+    pmc:has_severity <http://smartcity.pune.gov.in/ontology#severity/MEDIUM> ;
+    pmc:located_in <http://smartcity.pune.gov.in/ontology#ward/Ward_21_-_Dhankawadi-Katraj> ;
+    pmc:raw_text "Open garbage container overflowing with domestic waste near Katraj bus stand. Terrible durgandh."^^xsd:string ;
+    pmc:status "Open"^^xsd:string .
+
+<http://smartcity.pune.gov.in/ontology#complaint/PMC-2024-0013> a pmc:Complaint ;
+    pmc:complaint_id "PMC-2024-0013"^^xsd:string ;
+    pmc:extraction_model "spaCy_EntityRuler_Baseline"^^xsd:string ;
+    pmc:filing_date "2024-03-07"^^xsd:date ;
+    pmc:has_issue <http://smartcity.pune.gov.in/ontology#issue/Potholes__Road_Damage> ;
+    pmc:has_severity <http://smartcity.pune.gov.in/ontology#severity/LOW> ;
+    pmc:located_in <http://smartcity.pune.gov.in/ontology#ward/Ward_04_-_Ahmednagar_Road-Viman_Nagar> ;
+    pmc:raw_text "Minor road surface chipping in Viman Nagar near Symbiosis school. Needs patching."^^xsd:string ;
+    pmc:status "Open"^^xsd:string .
+
+<http://smartcity.pune.gov.in/ontology#complaint/PMC-2024-0014> a pmc:Complaint ;
+    pmc:complaint_id "PMC-2024-0014"^^xsd:string ;
+    pmc:extraction_model "spaCy_EntityRuler_Baseline"^^xsd:string ;
+    pmc:filing_date "2024-03-07"^^xsd:date ;
+    pmc:has_issue <http://smartcity.pune.gov.in/ontology#issue/Drainage__Sewerage_Leak> ;
+    pmc:has_severity <http://smartcity.pune.gov.in/ontology#severity/HIGH> ;
+    pmc:located_in <http://smartcity.pune.gov.in/ontology#ward/Ward_05_-_Yerawada-Kalas-Dhanori> ;
+    pmc:raw_text "Choked gatar drainage overflowing into basement shops near Yerawada market. Urgent assistance."^^xsd:string ;
+    pmc:status "Escalated"^^xsd:string .
+
+<http://smartcity.pune.gov.in/ontology#complaint/PMC-2024-0015> a pmc:Complaint ;
+    pmc:complaint_id "PMC-2024-0015"^^xsd:string ;
+    pmc:extraction_model "spaCy_EntityRuler_Baseline"^^xsd:string ;
+    pmc:filing_date "2024-03-08"^^xsd:date ;
+    pmc:has_issue <http://smartcity.pune.gov.in/ontology#issue/Water_Supply_Disruption> ;
+    pmc:has_severity <http://smartcity.pune.gov.in/ontology#severity/LOW> ;
+    pmc:located_in <http://smartcity.pune.gov.in/ontology#ward/Ward_12_-_Kothrud-Bavdhan> ;
+    pmc:raw_text "Contaminated yellow tap water coming in pipeline at Bavdhan residential society."^^xsd:string ;
+    pmc:status "Escalated"^^xsd:string .
+
+<http://smartcity.pune.gov.in/ontology#complaint/PMC-2024-0016> a pmc:Complaint ;
+    pmc:complaint_id "PMC-2024-0016"^^xsd:string ;
+    pmc:extraction_model "spaCy_EntityRuler_Baseline"^^xsd:string ;
+    pmc:filing_date "2024-03-08"^^xsd:date ;
+    pmc:has_issue <http://smartcity.pune.gov.in/ontology#issue/Illegal_Encroachment> ;
+    pmc:has_severity <http://smartcity.pune.gov.in/ontology#severity/LOW> ;
+    pmc:located_in <http://smartcity.pune.gov.in/ontology#ward/Ward_02_-_Aundh-Baner-Balewadi> ;
+    pmc:raw_text "Unauthorized tea stall stalls blocking access to public park in Pashan."^^xsd:string ;
+    pmc:status "Open"^^xsd:string .
+
+<http://smartcity.pune.gov.in/ontology#complaint/PMC-2024-0017> a pmc:Complaint ;
+    pmc:complaint_id "PMC-2024-0017"^^xsd:string ;
+    pmc:extraction_model "spaCy_EntityRuler_Baseline"^^xsd:string ;
+    pmc:filing_date "2024-03-09"^^xsd:date ;
+    pmc:has_issue <http://smartcity.pune.gov.in/ontology#issue/Streetlight_Outage> ;
+    pmc:has_severity <http://smartcity.pune.gov.in/ontology#severity/HIGH> ;
+    pmc:located_in <http://smartcity.pune.gov.in/ontology#ward/Ward_19_-_Hadapsar-Mundhwa> ;
+    pmc:raw_text "Streetlight pole leaning dangerously after mini-bus collided near Hadapsar Gadital."^^xsd:string ;
+    pmc:status "Escalated"^^xsd:string .
+
+<http://smartcity.pune.gov.in/ontology#complaint/PMC-2024-0018> a pmc:Complaint ;
+    pmc:complaint_id "PMC-2024-0018"^^xsd:string ;
+    pmc:extraction_model "spaCy_EntityRuler_Baseline"^^xsd:string ;
+    pmc:filing_date "2024-03-09"^^xsd:date ;
+    pmc:has_issue <http://smartcity.pune.gov.in/ontology#issue/Potholes__Road_Damage> ;
+    pmc:has_severity <http://smartcity.pune.gov.in/ontology#severity/LOW> ;
+    pmc:located_in <http://smartcity.pune.gov.in/ontology#ward/Ward_14_-_Sinhagad_Road-Vadgaon> ;
+    pmc:raw_text "Broken road divider and asphalt potholes near Sinhagad Road flyover landing."^^xsd:string ;
+    pmc:status "Open"^^xsd:string .
+
+<http://smartcity.pune.gov.in/ontology#complaint/PMC-2024-0019> a pmc:Complaint ;
+    pmc:complaint_id "PMC-2024-0019"^^xsd:string ;
+    pmc:extraction_model "spaCy_EntityRuler_Baseline"^^xsd:string ;
+    pmc:filing_date "2024-03-10"^^xsd:date ;
+    pmc:has_issue <http://smartcity.pune.gov.in/ontology#issue/Garbage_Dumping> ;
+    pmc:has_severity <http://smartcity.pune.gov.in/ontology#severity/HIGH> ;
+    pmc:located_in <http://smartcity.pune.gov.in/ontology#ward/Ward_20_-_Bibwewadi-Sahakarnagar> ;
+    pmc:raw_text "Dead animals and wet garbage rotting on open plot in Bibwewadi. Health hazard."^^xsd:string ;
+    pmc:status "Escalated"^^xsd:string .
+
+<http://smartcity.pune.gov.in/ontology#complaint/PMC-2024-0020> a pmc:Complaint ;
+    pmc:complaint_id "PMC-2024-0020"^^xsd:string ;
+    pmc:extraction_model "spaCy_EntityRuler_Baseline"^^xsd:string ;
+    pmc:filing_date "2024-03-10"^^xsd:date ;
+    pmc:has_issue <http://smartcity.pune.gov.in/ontology#issue/Water_Supply_Disruption> ;
+    pmc:has_severity <http://smartcity.pune.gov.in/ontology#severity/MEDIUM> ;
+    pmc:located_in <http://smartcity.pune.gov.in/ontology#ward/Ward_05_-_Yerawada-Kalas-Dhanori> ;
+    pmc:raw_text "Broken water distribution pipeline wasting thousands of litres daily in Dhanori."^^xsd:string ;
+    pmc:status "Open"^^xsd:string .
+
+<http://smartcity.pune.gov.in/ontology#complaint/PMC-2024-0021> a pmc:Complaint ;
+    pmc:complaint_id "PMC-2024-0021"^^xsd:string ;
+    pmc:extraction_model "spaCy_EntityRuler_Baseline"^^xsd:string ;
+    pmc:filing_date "2024-03-11"^^xsd:date ;
+    pmc:has_issue <http://smartcity.pune.gov.in/ontology#issue/General_Civic_Grievance> ;
+    pmc:has_severity <http://smartcity.pune.gov.in/ontology#severity/MEDIUM> ;
+    pmc:located_in <http://smartcity.pune.gov.in/ontology#ward/Ward_02_-_Aundh-Baner-Balewadi> ;
+    pmc:raw_text "Gutter cover broken near commercial plaza in Baner. Foul water pooling on footpath."^^xsd:string ;
+    pmc:status "Open"^^xsd:string .
+
+<http://smartcity.pune.gov.in/ontology#complaint/PMC-2024-0022> a pmc:Complaint ;
+    pmc:complaint_id "PMC-2024-0022"^^xsd:string ;
+    pmc:extraction_model "spaCy_EntityRuler_Baseline"^^xsd:string ;
+    pmc:filing_date "2024-03-11"^^xsd:date ;
+    pmc:has_issue <http://smartcity.pune.gov.in/ontology#issue/Illegal_Encroachment> ;
+    pmc:has_severity <http://smartcity.pune.gov.in/ontology#severity/LOW> ;
+    pmc:located_in <http://smartcity.pune.gov.in/ontology#ward/Ward_02_-_Aundh-Baner-Balewadi> ;
+    pmc:raw_text "Hawkers setting up illegal sheds on busy walking plaza in Aundh. Traffic choked."^^xsd:string ;
+    pmc:status "Open"^^xsd:string .
+
+<http://smartcity.pune.gov.in/ontology#complaint/PMC-2024-0023> a pmc:Complaint ;
+    pmc:complaint_id "PMC-2024-0023"^^xsd:string ;
+    pmc:extraction_model "spaCy_EntityRuler_Baseline"^^xsd:string ;
+    pmc:filing_date "2024-03-12"^^xsd:date ;
+    pmc:has_issue <http://smartcity.pune.gov.in/ontology#issue/Water_Supply_Disruption> ;
+    pmc:has_severity <http://smartcity.pune.gov.in/ontology#severity/LOW> ;
+    pmc:located_in <http://smartcity.pune.gov.in/ontology#ward/Ward_07_-_Shivajinagar-Ghole_Road> ;
+    pmc:raw_text "Continuous water supply leakage from valve chamber near Shivajinagar railway gate."^^xsd:string ;
+    pmc:status "Open"^^xsd:string .
+
+<http://smartcity.pune.gov.in/ontology#complaint/PMC-2024-0024> a pmc:Complaint ;
+    pmc:complaint_id "PMC-2024-0024"^^xsd:string ;
+    pmc:extraction_model "spaCy_EntityRuler_Baseline"^^xsd:string ;
+    pmc:filing_date "2024-03-12"^^xsd:date ;
+    pmc:has_issue <http://smartcity.pune.gov.in/ontology#issue/Streetlight_Outage> ;
+    pmc:has_severity <http://smartcity.pune.gov.in/ontology#severity/LOW> ;
+    pmc:located_in <http://smartcity.pune.gov.in/ontology#ward/Ward_01_-_Wakad-Tathawade> ;
+    pmc:raw_text "Three streetlights not working in row near Wakad Dutta Mandir road."^^xsd:string ;
+    pmc:status "Open"^^xsd:string .
+
+<http://smartcity.pune.gov.in/ontology#complaint/PMC-2024-0025> a pmc:Complaint ;
+    pmc:complaint_id "PMC-2024-0025"^^xsd:string ;
+    pmc:extraction_model "spaCy_EntityRuler_Baseline"^^xsd:string ;
+    pmc:filing_date "2024-03-13"^^xsd:date ;
+    pmc:has_issue <http://smartcity.pune.gov.in/ontology#issue/Potholes__Road_Damage> ;
+    pmc:has_severity <http://smartcity.pune.gov.in/ontology#severity/LOW> ;
+    pmc:located_in <http://smartcity.pune.gov.in/ontology#ward/Ward_12_-_Kothrud-Bavdhan> ;
+    pmc:raw_text "Uneven road leveling and tar peeling off after pipeline work in Kothrud near MIT college."^^xsd:string ;
+    pmc:status "Open"^^xsd:string .
+
+<http://smartcity.pune.gov.in/ontology#complaint/PMC-2024-0026> a pmc:Complaint ;
+    pmc:complaint_id "PMC-2024-0026"^^xsd:string ;
+    pmc:extraction_model "spaCy_EntityRuler_Baseline"^^xsd:string ;
+    pmc:filing_date "2024-03-14"^^xsd:date ;
+    pmc:has_issue <http://smartcity.pune.gov.in/ontology#issue/Drainage__Sewerage_Leak> ;
+    pmc:has_severity <http://smartcity.pune.gov.in/ontology#severity/HIGH> ;
+    pmc:located_in <http://smartcity.pune.gov.in/ontology#ward/Ward_02_-_Aundh-Baner-Balewadi> ;
+    pmc:raw_text "Massive sewage drainage burst in Baner near Pancard Club road. Gutter water entering homes!"^^xsd:string ;
+    pmc:status "Escalated"^^xsd:string .
+
+<http://smartcity.pune.gov.in/ontology#complaint/PMC-2024-0027> a pmc:Complaint ;
+    pmc:complaint_id "PMC-2024-0027"^^xsd:string ;
+    pmc:extraction_model "spaCy_EntityRuler_Baseline"^^xsd:string ;
+    pmc:filing_date "2024-03-14"^^xsd:date ;
+    pmc:has_issue <http://smartcity.pune.gov.in/ontology#issue/Drainage__Sewerage_Leak> ;
+    pmc:has_severity <http://smartcity.pune.gov.in/ontology#severity/HIGH> ;
+    pmc:located_in <http://smartcity.pune.gov.in/ontology#ward/Ward_02_-_Aundh-Baner-Balewadi> ;
+    pmc:raw_text "Drainage line completely blocked in Baner sector 3. Stagnant filthy water flood on street."^^xsd:string ;
+    pmc:status "Escalated"^^xsd:string .
+
+<http://smartcity.pune.gov.in/ontology#complaint/PMC-2024-0028> a pmc:Complaint ;
+    pmc:complaint_id "PMC-2024-0028"^^xsd:string ;
+    pmc:extraction_model "spaCy_EntityRuler_Baseline"^^xsd:string ;
+    pmc:filing_date "2024-03-14"^^xsd:date ;
+    pmc:has_issue <http://smartcity.pune.gov.in/ontology#issue/Drainage__Sewerage_Leak> ;
+    pmc:has_severity <http://smartcity.pune.gov.in/ontology#severity/HIGH> ;
+    pmc:located_in <http://smartcity.pune.gov.in/ontology#ward/Ward_02_-_Aundh-Baner-Balewadi> ;
+    pmc:raw_text "Foul smell and overflowing manhole on Baner High Street. Critical health emergency for residents."^^xsd:string ;
+    pmc:status "Escalated"^^xsd:string .
+
+<http://smartcity.pune.gov.in/ontology#complaint/PMC-2024-0029> a pmc:Complaint ;
+    pmc:complaint_id "PMC-2024-0029"^^xsd:string ;
+    pmc:extraction_model "spaCy_EntityRuler_Baseline"^^xsd:string ;
+    pmc:filing_date "2024-03-14"^^xsd:date ;
+    pmc:has_issue <http://smartcity.pune.gov.in/ontology#issue/Drainage__Sewerage_Leak> ;
+    pmc:has_severity <http://smartcity.pune.gov.in/ontology#severity/HIGH> ;
+    pmc:located_in <http://smartcity.pune.gov.in/ontology#ward/Ward_02_-_Aundh-Baner-Balewadi> ;
+    pmc:raw_text "Sewage water backflowing into ground floor apartments in Baner. Urgent pump team needed."^^xsd:string ;
+    pmc:status "Escalated"^^xsd:string .
+
+<http://smartcity.pune.gov.in/ontology#complaint/PMC-2024-0030> a pmc:Complaint ;
+    pmc:complaint_id "PMC-2024-0030"^^xsd:string ;
+    pmc:extraction_model "spaCy_EntityRuler_Baseline"^^xsd:string ;
+    pmc:filing_date "2024-03-15"^^xsd:date ;
+    pmc:has_issue <http://smartcity.pune.gov.in/ontology#issue/Drainage__Sewerage_Leak> ;
+    pmc:has_severity <http://smartcity.pune.gov.in/ontology#severity/HIGH> ;
+    pmc:located_in <http://smartcity.pune.gov.in/ontology#ward/Ward_02_-_Aundh-Baner-Balewadi> ;
+    pmc:raw_text "Main underground sewer collapsed in Baner near highway underpass. Road submerged in sludge."^^xsd:string ;
+    pmc:status "Escalated"^^xsd:string .
+
+<http://smartcity.pune.gov.in/ontology#complaint/PMC-2024-0031> a pmc:Complaint ;
+    pmc:complaint_id "PMC-2024-0031"^^xsd:string ;
+    pmc:extraction_model "spaCy_EntityRuler_Baseline"^^xsd:string ;
+    pmc:filing_date "2024-03-15"^^xsd:date ;
+    pmc:has_issue <http://smartcity.pune.gov.in/ontology#issue/Drainage__Sewerage_Leak> ;
+    pmc:has_severity <http://smartcity.pune.gov.in/ontology#severity/LOW> ;
+    pmc:located_in <http://smartcity.pune.gov.in/ontology#ward/Ward_02_-_Aundh-Baner-Balewadi> ;
+    pmc:raw_text "Disgusting sewer leak on Baner Pashan link road. Commuters cannot cross."^^xsd:string ;
+    pmc:status "Escalated"^^xsd:string .
+
+<http://smartcity.pune.gov.in/ontology#complaint/PMC-2024-0032> a pmc:Complaint ;
+    pmc:complaint_id "PMC-2024-0032"^^xsd:string ;
+    pmc:extraction_model "spaCy_EntityRuler_Baseline"^^xsd:string ;
+    pmc:filing_date "2024-03-15"^^xsd:date ;
+    pmc:has_issue <http://smartcity.pune.gov.in/ontology#issue/Drainage__Sewerage_Leak> ;
+    pmc:has_severity <http://smartcity.pune.gov.in/ontology#severity/LOW> ;
+    pmc:located_in <http://smartcity.pune.gov.in/ontology#ward/Ward_02_-_Aundh-Baner-Balewadi> ;
+    pmc:raw_text "Choked gatar line in Baner village area overflowing into local vegetable market."^^xsd:string ;
+    pmc:status "Escalated"^^xsd:string .
+
+<http://smartcity.pune.gov.in/ontology#complaint/PMC-2024-0033> a pmc:Complaint ;
+    pmc:complaint_id "PMC-2024-0033"^^xsd:string ;
+    pmc:extraction_model "spaCy_EntityRuler_Baseline"^^xsd:string ;
+    pmc:filing_date "2024-03-18"^^xsd:date ;
+    pmc:has_issue <http://smartcity.pune.gov.in/ontology#issue/Garbage_Dumping> ;
+    pmc:has_severity <http://smartcity.pune.gov.in/ontology#severity/LOW> ;
+    pmc:located_in <http://smartcity.pune.gov.in/ontology#ward/Ward_12_-_Kothrud-Bavdhan> ;
+    pmc:raw_text "Sanitation strike impact: mountains of uncollected kachra garbage piled in Kothrud ward."^^xsd:string ;
+    pmc:status "Escalated"^^xsd:string .
+
+<http://smartcity.pune.gov.in/ontology#complaint/PMC-2024-0034> a pmc:Complaint ;
+    pmc:complaint_id "PMC-2024-0034"^^xsd:string ;
+    pmc:extraction_model "spaCy_EntityRuler_Baseline"^^xsd:string ;
+    pmc:filing_date "2024-03-18"^^xsd:date ;
+    pmc:has_issue <http://smartcity.pune.gov.in/ontology#issue/Garbage_Dumping> ;
+    pmc:has_severity <http://smartcity.pune.gov.in/ontology#severity/LOW> ;
+    pmc:located_in <http://smartcity.pune.gov.in/ontology#ward/Ward_07_-_Shivajinagar-Ghole_Road> ;
+    pmc:raw_text "Garbage dumping everywhere along Paud Road Kothrud. Rotten stink and stray cattle menace."^^xsd:string ;
+    pmc:status "Escalated"^^xsd:string .
+
+<http://smartcity.pune.gov.in/ontology#complaint/PMC-2024-0035> a pmc:Complaint ;
+    pmc:complaint_id "PMC-2024-0035"^^xsd:string ;
+    pmc:extraction_model "spaCy_EntityRuler_Baseline"^^xsd:string ;
+    pmc:filing_date "2024-03-18"^^xsd:date ;
+    pmc:has_issue <http://smartcity.pune.gov.in/ontology#issue/Garbage_Dumping> ;
+    pmc:has_severity <http://smartcity.pune.gov.in/ontology#severity/LOW> ;
+    pmc:located_in <http://smartcity.pune.gov.in/ontology#ward/Ward_12_-_Kothrud-Bavdhan> ;
+    pmc:raw_text "Huge solid waste accumulation outside Kothrud vegetable market. Not cleared for 4 days."^^xsd:string ;
+    pmc:status "Escalated"^^xsd:string .
+
+<http://smartcity.pune.gov.in/ontology#complaint/PMC-2024-0036> a pmc:Complaint ;
+    pmc:complaint_id "PMC-2024-0036"^^xsd:string ;
+    pmc:extraction_model "spaCy_EntityRuler_Baseline"^^xsd:string ;
+    pmc:filing_date "2024-03-18"^^xsd:date ;
+    pmc:has_issue <http://smartcity.pune.gov.in/ontology#issue/Garbage_Dumping> ;
+    pmc:has_severity <http://smartcity.pune.gov.in/ontology#severity/HIGH> ;
+    pmc:located_in <http://smartcity.pune.gov.in/ontology#ward/Ward_12_-_Kothrud-Bavdhan> ;
+    pmc:raw_text "Overflowing dumper bin with rotting medical waste near Kothrud hospital. Immediate evacuation required."^^xsd:string ;
+    pmc:status "Escalated"^^xsd:string .
+
+<http://smartcity.pune.gov.in/ontology#complaint/PMC-2024-0037> a pmc:Complaint ;
+    pmc:complaint_id "PMC-2024-0037"^^xsd:string ;
+    pmc:extraction_model "spaCy_EntityRuler_Baseline"^^xsd:string ;
+    pmc:filing_date "2024-03-19"^^xsd:date ;
+    pmc:has_issue <http://smartcity.pune.gov.in/ontology#issue/Garbage_Dumping> ;
+    pmc:has_severity <http://smartcity.pune.gov.in/ontology#severity/HIGH> ;
+    pmc:located_in <http://smartcity.pune.gov.in/ontology#ward/Ward_12_-_Kothrud-Bavdhan> ;
+    pmc:raw_text "Illegal open garbage burning generating toxic smoke near Kothrud hill base."^^xsd:string ;
+    pmc:status "Escalated"^^xsd:string .
+
+<http://smartcity.pune.gov.in/ontology#complaint/PMC-2024-0038> a pmc:Complaint ;
+    pmc:complaint_id "PMC-2024-0038"^^xsd:string ;
+    pmc:extraction_model "spaCy_EntityRuler_Baseline"^^xsd:string ;
+    pmc:filing_date "2024-03-19"^^xsd:date ;
+    pmc:has_issue <http://smartcity.pune.gov.in/ontology#issue/Garbage_Dumping> ;
+    pmc:has_severity <http://smartcity.pune.gov.in/ontology#severity/LOW> ;
+    pmc:located_in <http://smartcity.pune.gov.in/ontology#ward/Ward_12_-_Kothrud-Bavdhan> ;
+    pmc:raw_text "Waste disposal vehicle not visiting Anand Nagar Kothrud. Residents throwing garbage on road."^^xsd:string ;
+    pmc:status "Open"^^xsd:string .
+
+<http://smartcity.pune.gov.in/ontology#complaint/PMC-2024-0039> a pmc:Complaint ;
+    pmc:complaint_id "PMC-2024-0039"^^xsd:string ;
+    pmc:extraction_model "spaCy_EntityRuler_Baseline"^^xsd:string ;
+    pmc:filing_date "2024-03-19"^^xsd:date ;
+    pmc:has_issue <http://smartcity.pune.gov.in/ontology#issue/Garbage_Dumping> ;
+    pmc:has_severity <http://smartcity.pune.gov.in/ontology#severity/LOW> ;
+    pmc:located_in <http://smartcity.pune.gov.in/ontology#ward/Ward_12_-_Kothrud-Bavdhan> ;
+    pmc:raw_text "Huge mound of household trash blocking entrance of society in Kothrud."^^xsd:string ;
+    pmc:status "Escalated"^^xsd:string .
+
+<http://smartcity.pune.gov.in/ontology#complaint/PMC-2024-0040> a pmc:Complaint ;
+    pmc:complaint_id "PMC-2024-0040"^^xsd:string ;
+    pmc:extraction_model "spaCy_EntityRuler_Baseline"^^xsd:string ;
+    pmc:filing_date "2024-03-20"^^xsd:date ;
+    pmc:has_issue <http://smartcity.pune.gov.in/ontology#issue/Potholes__Road_Damage> ;
+    pmc:has_severity <http://smartcity.pune.gov.in/ontology#severity/LOW> ;
+    pmc:located_in <http://smartcity.pune.gov.in/ontology#ward/Ward_01_-_Hinjewadi-Maan_IT_Corridor> ;
+    pmc:raw_text "Multiple heavy potholes near Hinjewadi Phase 3 circle causing 2 hour delay."^^xsd:string ;
+    pmc:status "Escalated"^^xsd:string .
+
+<http://smartcity.pune.gov.in/ontology#complaint/PMC-2024-0041> a pmc:Complaint ;
+    pmc:complaint_id "PMC-2024-0041"^^xsd:string ;
+    pmc:extraction_model "spaCy_EntityRuler_Baseline"^^xsd:string ;
+    pmc:filing_date "2024-03-20"^^xsd:date ;
+    pmc:has_issue <http://smartcity.pune.gov.in/ontology#issue/Water_Supply_Disruption> ;
+    pmc:has_severity <http://smartcity.pune.gov.in/ontology#severity/LOW> ;
+    pmc:located_in <http://smartcity.pune.gov.in/ontology#ward/Ward_04_-_Ahmednagar_Road-Viman_Nagar> ;
+    pmc:raw_text "Zero water supply in Viman Nagar lane 2 since 48 hours. Tankers overcharging."^^xsd:string ;
+    pmc:status "Escalated"^^xsd:string .
+
+<http://smartcity.pune.gov.in/ontology#complaint/PMC-2024-0042> a pmc:Complaint ;
+    pmc:complaint_id "PMC-2024-0042"^^xsd:string ;
+    pmc:extraction_model "spaCy_EntityRuler_Baseline"^^xsd:string ;
+    pmc:filing_date "2024-03-21"^^xsd:date ;
+    pmc:has_issue <http://smartcity.pune.gov.in/ontology#issue/Streetlight_Outage> ;
+    pmc:has_severity <http://smartcity.pune.gov.in/ontology#severity/HIGH> ;
+    pmc:located_in <http://smartcity.pune.gov.in/ontology#ward/Ward_19_-_Hadapsar-Mundhwa> ;
+    pmc:raw_text "Streetlights non-functional on Hadapsar railway flyover. Dark and dangerous."^^xsd:string ;
+    pmc:status "Open"^^xsd:string .
+
+<http://smartcity.pune.gov.in/ontology#complaint/PMC-2024-0043> a pmc:Complaint ;
+    pmc:complaint_id "PMC-2024-0043"^^xsd:string ;
+    pmc:extraction_model "spaCy_EntityRuler_Baseline"^^xsd:string ;
+    pmc:filing_date "2024-03-21"^^xsd:date ;
+    pmc:has_issue <http://smartcity.pune.gov.in/ontology#issue/Illegal_Encroachment> ;
+    pmc:has_severity <http://smartcity.pune.gov.in/ontology#severity/LOW> ;
+    pmc:located_in <http://smartcity.pune.gov.in/ontology#ward/Ward_04_-_Ahmednagar_Road-Viman_Nagar> ;
+    pmc:raw_text "Illegal street food vendors blocking pedestrian walkway near Kalyani Nagar bridge."^^xsd:string ;
+    pmc:status "Open"^^xsd:string .
+
+<http://smartcity.pune.gov.in/ontology#complaint/PMC-2024-0044> a pmc:Complaint ;
+    pmc:complaint_id "PMC-2024-0044"^^xsd:string ;
+    pmc:extraction_model "spaCy_EntityRuler_Baseline"^^xsd:string ;
+    pmc:filing_date "2024-03-21"^^xsd:date ;
+    pmc:has_issue <http://smartcity.pune.gov.in/ontology#issue/Drainage__Sewerage_Leak> ;
+    pmc:has_severity <http://smartcity.pune.gov.in/ontology#severity/LOW> ;
+    pmc:located_in <http://smartcity.pune.gov.in/ontology#ward/Ward_21_-_Dhankawadi-Katraj> ;
+    pmc:raw_text "Overflowing drainage chamber near Katraj snake park road. Smelling awful."^^xsd:string ;
+    pmc:status "Open"^^xsd:string .
+
+<http://smartcity.pune.gov.in/ontology#complaint/PMC-2024-0045> a pmc:Complaint ;
+    pmc:complaint_id "PMC-2024-0045"^^xsd:string ;
+    pmc:extraction_model "spaCy_EntityRuler_Baseline"^^xsd:string ;
+    pmc:filing_date "2024-03-22"^^xsd:date ;
+    pmc:has_issue <http://smartcity.pune.gov.in/ontology#issue/Potholes__Road_Damage> ;
+    pmc:has_severity <http://smartcity.pune.gov.in/ontology#severity/LOW> ;
+    pmc:located_in <http://smartcity.pune.gov.in/ontology#ward/Ward_13_-_Karve_Nagar-Warje> ;
+    pmc:raw_text "Potholes reappearing after rain on Karve Nagar main chowk."^^xsd:string ;
+    pmc:status "Open"^^xsd:string .
+
+<http://smartcity.pune.gov.in/ontology#complaint/PMC-2024-0046> a pmc:Complaint ;
+    pmc:complaint_id "PMC-2024-0046"^^xsd:string ;
+    pmc:extraction_model "spaCy_EntityRuler_Baseline"^^xsd:string ;
+    pmc:filing_date "2024-03-22"^^xsd:date ;
+    pmc:has_issue <http://smartcity.pune.gov.in/ontology#issue/Water_Supply_Disruption> ;
+    pmc:has_severity <http://smartcity.pune.gov.in/ontology#severity/LOW> ;
+    pmc:located_in <http://smartcity.pune.gov.in/ontology#ward/Ward_07_-_Shivajinagar-Ghole_Road> ;
+    pmc:raw_text "Pipes ruptured during metro construction work near Shivajinagar. Clean water overflowing."^^xsd:string ;
+    pmc:status "Open"^^xsd:string .
+
+<http://smartcity.pune.gov.in/ontology#complaint/PMC-2024-0047> a pmc:Complaint ;
+    pmc:complaint_id "PMC-2024-0047"^^xsd:string ;
+    pmc:extraction_model "spaCy_EntityRuler_Baseline"^^xsd:string ;
+    pmc:filing_date "2024-03-22"^^xsd:date ;
+    pmc:has_issue <http://smartcity.pune.gov.in/ontology#issue/Streetlight_Outage> ;
+    pmc:has_severity <http://smartcity.pune.gov.in/ontology#severity/HIGH> ;
+    pmc:located_in <http://smartcity.pune.gov.in/ontology#ward/Ward_02_-_Aundh-Baner-Balewadi> ;
+    pmc:raw_text "Streetlight switchboard open with exposed live wires in Aundh. Serious safety hazard for kids."^^xsd:string ;
+    pmc:status "Escalated"^^xsd:string .
+
+<http://smartcity.pune.gov.in/ontology#complaint/PMC-2024-0048> a pmc:Complaint ;
+    pmc:complaint_id "PMC-2024-0048"^^xsd:string ;
+    pmc:extraction_model "spaCy_EntityRuler_Baseline"^^xsd:string ;
+    pmc:filing_date "2024-03-22"^^xsd:date ;
+    pmc:has_issue <http://smartcity.pune.gov.in/ontology#issue/Illegal_Encroachment> ;
+    pmc:has_severity <http://smartcity.pune.gov.in/ontology#severity/LOW> ;
+    pmc:located_in <http://smartcity.pune.gov.in/ontology#ward/Ward_01_-_Hinjewadi-Maan_IT_Corridor> ;
+    pmc:raw_text "Illegal car parking garages encroaching public service road in Hinjewadi."^^xsd:string ;
+    pmc:status "Open"^^xsd:string .
+
+<http://smartcity.pune.gov.in/ontology#complaint/PMC-2024-0049> a pmc:Complaint ;
+    pmc:complaint_id "PMC-2024-0049"^^xsd:string ;
+    pmc:extraction_model "spaCy_EntityRuler_Baseline"^^xsd:string ;
+    pmc:filing_date "2024-03-22"^^xsd:date ;
+    pmc:has_issue <http://smartcity.pune.gov.in/ontology#issue/Garbage_Dumping> ;
+    pmc:has_severity <http://smartcity.pune.gov.in/ontology#severity/LOW> ;
+    pmc:located_in <http://smartcity.pune.gov.in/ontology#ward/Ward_12_-_Kothrud-Bavdhan> ;
+    pmc:raw_text "Garbage dumping in storm water nullah near Bavdhan junction."^^xsd:string ;
+    pmc:status "Open"^^xsd:string .
+
+<http://smartcity.pune.gov.in/ontology#complaint/PMC-2024-0050> a pmc:Complaint ;
+    pmc:complaint_id "PMC-2024-0050"^^xsd:string ;
+    pmc:extraction_model "spaCy_EntityRuler_Baseline"^^xsd:string ;
+    pmc:filing_date "2024-03-22"^^xsd:date ;
+    pmc:has_issue <http://smartcity.pune.gov.in/ontology#issue/Potholes__Road_Damage> ;
+    pmc:has_severity <http://smartcity.pune.gov.in/ontology#severity/LOW> ;
+    pmc:located_in <http://smartcity.pune.gov.in/ontology#ward/Ward_09_-_Kasba-Vishrambaug_Wada> ;
+    pmc:raw_text "Deep pothole crater near Swargate Jedhe flyover ascent."^^xsd:string ;
+    pmc:status "Escalated"^^xsd:string .
+
+pmc:handled_by a owl:ObjectProperty ;
+    rdfs:domain pmc:IssueType ;
+    rdfs:range pmc:Department .
+
+pmc:has_issue a owl:ObjectProperty ;
+    rdfs:domain pmc:Complaint ;
+    rdfs:range pmc:IssueType .
+
+pmc:has_severity a owl:ObjectProperty ;
+    rdfs:domain pmc:Complaint ;
+    rdfs:range pmc:SeverityLevel .
+
+pmc:located_in a owl:ObjectProperty ;
+    rdfs:domain pmc:Complaint ;
+    rdfs:range pmc:Ward .
+
+<http://smartcity.pune.gov.in/ontology#dept/Drainage_and_Sewerage_Department> a pmc:Department ;
+    rdfs:label "Drainage and Sewerage Department"^^xsd:string .
+
+<http://smartcity.pune.gov.in/ontology#dept/Electrical_and_Lighting_Department> a pmc:Department ;
+    rdfs:label "Electrical and Lighting Department"^^xsd:string .
+
+<http://smartcity.pune.gov.in/ontology#dept/Encroachment_Control_Department> a pmc:Department ;
+    rdfs:label "Encroachment Control Department"^^xsd:string .
+
+<http://smartcity.pune.gov.in/ontology#dept/General_Municipal_Administration> a pmc:Department ;
+    rdfs:label "General Municipal Administration"^^xsd:string .
+
+<http://smartcity.pune.gov.in/ontology#dept/Road_and_Infrastructure_Department> a pmc:Department ;
+    rdfs:label "Road and Infrastructure Department"^^xsd:string .
+
+<http://smartcity.pune.gov.in/ontology#dept/Solid_Waste_Management_Department> a pmc:Department ;
+    rdfs:label "Solid Waste Management Department"^^xsd:string .
+
+<http://smartcity.pune.gov.in/ontology#dept/Water_Supply_Department> a pmc:Department ;
+    rdfs:label "Water Supply Department"^^xsd:string .
+
+<http://smartcity.pune.gov.in/ontology#issue/General_Civic_Grievance> a pmc:IssueType ;
+    rdfs:label "General Civic Grievance"^^xsd:string ;
+    pmc:handled_by <http://smartcity.pune.gov.in/ontology#dept/General_Municipal_Administration> .
+
+<http://smartcity.pune.gov.in/ontology#ward/Ward_06_-_Dhole_Patil_Road> a pmc:Ward ;
+    rdfs:label "Ward 06 - Dhole Patil Road"^^xsd:string .
+
+<http://smartcity.pune.gov.in/ontology#ward/Ward_13_-_Karve_Nagar-Warje> a pmc:Ward ;
+    rdfs:label "Ward 13 - Karve Nagar-Warje"^^xsd:string .
+
+<http://smartcity.pune.gov.in/ontology#ward/Ward_14_-_Sinhagad_Road-Vadgaon> a pmc:Ward ;
+    rdfs:label "Ward 14 - Sinhagad Road-Vadgaon"^^xsd:string .
+
+<http://smartcity.pune.gov.in/ontology#ward/Ward_20_-_Bibwewadi-Sahakarnagar> a pmc:Ward ;
+    rdfs:label "Ward 20 - Bibwewadi-Sahakarnagar"^^xsd:string .
+
+<http://smartcity.pune.gov.in/ontology#ward/Ward_01_-_Wakad-Tathawade> a pmc:Ward ;
+    rdfs:label "Ward 01 - Wakad-Tathawade"^^xsd:string .
+
+<http://smartcity.pune.gov.in/ontology#ward/Ward_05_-_Yerawada-Kalas-Dhanori> a pmc:Ward ;
+    rdfs:label "Ward 05 - Yerawada-Kalas-Dhanori"^^xsd:string .
+
+<http://smartcity.pune.gov.in/ontology#ward/Ward_09_-_Kasba-Vishrambaug_Wada> a pmc:Ward ;
+    rdfs:label "Ward 09 - Kasba-Vishrambaug Wada"^^xsd:string .
+
+<http://smartcity.pune.gov.in/ontology#ward/Ward_21_-_Dhankawadi-Katraj> a pmc:Ward ;
+    rdfs:label "Ward 21 - Dhankawadi-Katraj"^^xsd:string .
+
+<http://smartcity.pune.gov.in/ontology#ward/Ward_01_-_Hinjewadi-Maan_IT_Corridor> a pmc:Ward ;
+    rdfs:label "Ward 01 - Hinjewadi-Maan IT Corridor"^^xsd:string .
+
+<http://smartcity.pune.gov.in/ontology#ward/Ward_19_-_Hadapsar-Mundhwa> a pmc:Ward ;
+    rdfs:label "Ward 19 - Hadapsar-Mundhwa"^^xsd:string .
+
+pmc:SeverityLevel a owl:Class ;
+    rdfs:label "SeverityLevel" .
+
+<http://smartcity.pune.gov.in/ontology#ward/Ward_04_-_Ahmednagar_Road-Viman_Nagar> a pmc:Ward ;
+    rdfs:label "Ward 04 - Ahmednagar Road-Viman Nagar"^^xsd:string .
+
+<http://smartcity.pune.gov.in/ontology#issue/Illegal_Encroachment> a pmc:IssueType ;
+    rdfs:label "Illegal Encroachment"^^xsd:string ;
+    pmc:handled_by <http://smartcity.pune.gov.in/ontology#dept/Encroachment_Control_Department> .
+
+<http://smartcity.pune.gov.in/ontology#severity/MEDIUM> a pmc:SeverityLevel ;
+    rdfs:label "MEDIUM"^^xsd:string .
+
+<http://smartcity.pune.gov.in/ontology#ward/Ward_07_-_Shivajinagar-Ghole_Road> a pmc:Ward ;
+    rdfs:label "Ward 07 - Shivajinagar-Ghole Road"^^xsd:string .
+
+<http://smartcity.pune.gov.in/ontology#issue/Streetlight_Outage> a pmc:IssueType ;
+    rdfs:label "Streetlight Outage"^^xsd:string ;
+    pmc:handled_by <http://smartcity.pune.gov.in/ontology#dept/Electrical_and_Lighting_Department> .
+
+<http://smartcity.pune.gov.in/ontology#issue/Water_Supply_Disruption> a pmc:IssueType ;
+    rdfs:label "Water Supply Disruption"^^xsd:string ;
+    pmc:handled_by <http://smartcity.pune.gov.in/ontology#dept/Water_Supply_Department> .
+
+pmc:Department a owl:Class ;
+    rdfs:label "Department" .
+
+<http://smartcity.pune.gov.in/ontology#issue/Potholes__Road_Damage> a pmc:IssueType ;
+    rdfs:label "Potholes & Road Damage"^^xsd:string ;
+    pmc:handled_by <http://smartcity.pune.gov.in/ontology#dept/Road_and_Infrastructure_Department> .
+
+pmc:IssueType a owl:Class ;
+    rdfs:label "IssueType" .
+
+<http://smartcity.pune.gov.in/ontology#ward/Ward_12_-_Kothrud-Bavdhan> a pmc:Ward ;
+    rdfs:label "Ward 12 - Kothrud-Bavdhan"^^xsd:string .
+
+<http://smartcity.pune.gov.in/ontology#issue/Drainage__Sewerage_Leak> a pmc:IssueType ;
+    rdfs:label "Drainage & Sewerage Leak"^^xsd:string ;
+    pmc:handled_by <http://smartcity.pune.gov.in/ontology#dept/Drainage_and_Sewerage_Department> .
+
+<http://smartcity.pune.gov.in/ontology#issue/Garbage_Dumping> a pmc:IssueType ;
+    rdfs:label "Garbage Dumping"^^xsd:string ;
+    pmc:handled_by <http://smartcity.pune.gov.in/ontology#dept/Solid_Waste_Management_Department> .
+
+<http://smartcity.pune.gov.in/ontology#ward/Ward_02_-_Aundh-Baner-Balewadi> a pmc:Ward ;
+    rdfs:label "Ward 02 - Aundh-Baner-Balewadi"^^xsd:string .
+
+<http://smartcity.pune.gov.in/ontology#severity/HIGH> a pmc:SeverityLevel ;
+    rdfs:label "HIGH"^^xsd:string .
+
+pmc:Ward a owl:Class ;
+    rdfs:label "Ward" .
+
+<http://smartcity.pune.gov.in/ontology#severity/LOW> a pmc:SeverityLevel ;
+    rdfs:label "LOW"^^xsd:string .
+
+pmc:Complaint a owl:Class ;
+    rdfs:label "Complaint" .
+

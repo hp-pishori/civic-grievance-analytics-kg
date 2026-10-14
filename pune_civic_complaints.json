@@ -1,0 +1,1584 @@
+[
+  {
+    "complaint_id": "PMC-2024-0001",
+    "raw_text": "Major deep potholes on DP road near Kothrud depot causing severe traffic jams. Urgent repair required.",
+    "cleaned_text": "Major deep potholes on DP road near Kothrud depot causing severe traffic jams. Urgent repair required.",
+    "ground_truth_location": "Kothrud",
+    "ground_truth_issue": "Potholes & Road Damage",
+    "ground_truth_severity": "HIGH",
+    "ward": "Ward 12 - Kothrud-Bavdhan",
+    "department": "Road and Infrastructure Department",
+    "filing_date": "2024-03-01",
+    "status": "Escalated",
+    "entities": [
+      {
+        "text": "Kothrud",
+        "start": 36,
+        "end": 43,
+        "label": "LOCATION"
+      },
+      {
+        "text": "deep potholes",
+        "start": 6,
+        "end": 19,
+        "label": "ISSUE_TYPE"
+      },
+      {
+        "text": "Urgent",
+        "start": 79,
+        "end": 85,
+        "label": "SEVERITY"
+      }
+    ]
+  },
+  {
+    "complaint_id": "PMC-2024-0002",
+    "raw_text": "Garbage dumping along main canal road in Baner. Foul smell and stray dogs everywhere since 3 days.",
+    "cleaned_text": "Garbage dumping along main canal road in Baner. Foul smell and stray dogs everywhere since 3 days.",
+    "ground_truth_location": "Baner",
+    "ground_truth_issue": "Garbage Dumping",
+    "ground_truth_severity": "MEDIUM",
+    "ward": "Ward 02 - Aundh-Baner-Balewadi",
+    "department": "Solid Waste Management Department",
+    "filing_date": "2024-03-01",
+    "status": "Open",
+    "entities": [
+      {
+        "text": "Baner",
+        "start": 41,
+        "end": 46,
+        "label": "LOCATION"
+      },
+      {
+        "text": "Garbage dumping",
+        "start": 0,
+        "end": 15,
+        "label": "ISSUE_TYPE"
+      },
+      {
+        "text": "since 3 days",
+        "start": 85,
+        "end": 97,
+        "label": "SEVERITY"
+      }
+    ]
+  },
+  {
+    "complaint_id": "PMC-2024-0003",
+    "raw_text": "Underground drainage pipeline chocked and leaking black sewage water on Hinjewadi Phase 1 chowk.",
+    "cleaned_text": "Underground drainage pipeline chocked and leaking black sewage water on Hinjewadi Phase 1 chowk.",
+    "ground_truth_location": "Hinjewadi",
+    "ground_truth_issue": "Drainage & Sewerage Leak",
+    "ground_truth_severity": "HIGH",
+    "ward": "Ward 01 - Hinjewadi-Maan IT Corridor",
+    "department": "Drainage and Sewerage Department",
+    "filing_date": "2024-03-02",
+    "status": "Escalated",
+    "entities": [
+      {
+        "text": "Hinjewadi",
+        "start": 72,
+        "end": 81,
+        "label": "LOCATION"
+      },
+      {
+        "text": "Underground drainage pipeline",
+        "start": 0,
+        "end": 29,
+        "label": "ISSUE_TYPE"
+      },
+      {
+        "text": "HIGH",
+        "start": -1,
+        "end": -1,
+        "label": "SEVERITY"
+      }
+    ]
+  },
+  {
+    "complaint_id": "PMC-2024-0004",
+    "raw_text": "Low pressure dirty water supply in Shivajinagar near Modern College. Water smells like sewage.",
+    "cleaned_text": "Low pressure dirty water supply in Shivajinagar near Modern College. Water smells like sewage.",
+    "ground_truth_location": "Shivajinagar",
+    "ground_truth_issue": "Water Supply Disruption",
+    "ground_truth_severity": "HIGH",
+    "ward": "Ward 07 - Shivajinagar-Ghole Road",
+    "department": "Water Supply Department",
+    "filing_date": "2024-03-02",
+    "status": "Escalated",
+    "entities": [
+      {
+        "text": "Shivajinagar",
+        "start": 35,
+        "end": 47,
+        "label": "LOCATION"
+      },
+      {
+        "text": "water supply",
+        "start": 19,
+        "end": 31,
+        "label": "ISSUE_TYPE"
+      },
+      {
+        "text": "HIGH",
+        "start": -1,
+        "end": -1,
+        "label": "SEVERITY"
+      }
+    ]
+  },
+  {
+    "complaint_id": "PMC-2024-0005",
+    "raw_text": "Streetlight outage on IT park link road Aundh. Complete darkness for pedestrians at night.",
+    "cleaned_text": "Streetlight outage on IT park link road Aundh. Complete darkness for pedestrians at night.",
+    "ground_truth_location": "Aundh",
+    "ground_truth_issue": "Streetlight Outage",
+    "ground_truth_severity": "MEDIUM",
+    "ward": "Ward 02 - Aundh-Baner-Balewadi",
+    "department": "Electrical and Lighting Department",
+    "filing_date": "2024-03-03",
+    "status": "Open",
+    "entities": [
+      {
+        "text": "Aundh",
+        "start": 40,
+        "end": 45,
+        "label": "LOCATION"
+      },
+      {
+        "text": "Streetlight outage",
+        "start": 0,
+        "end": 18,
+        "label": "ISSUE_TYPE"
+      },
+      {
+        "text": "MEDIUM",
+        "start": -1,
+        "end": -1,
+        "label": "SEVERITY"
+      }
+    ]
+  },
+  {
+    "complaint_id": "PMC-2024-0006",
+    "raw_text": "Huge pile of untreated garbage kachra dumped outside Magarpatta South Gate. Swarms of flies.",
+    "cleaned_text": "Huge pile of untreated garbage kachra dumped outside Magarpatta South Gate. Swarms of flies.",
+    "ground_truth_location": "Magarpatta",
+    "ground_truth_issue": "Garbage Dumping",
+    "ground_truth_severity": "HIGH",
+    "ward": "Ward 19 - Hadapsar-Mundhwa",
+    "department": "Solid Waste Management Department",
+    "filing_date": "2024-03-03",
+    "status": "Escalated",
+    "entities": [
+      {
+        "text": "Magarpatta",
+        "start": 53,
+        "end": 63,
+        "label": "LOCATION"
+      },
+      {
+        "text": "garbage",
+        "start": 23,
+        "end": 30,
+        "label": "ISSUE_TYPE"
+      },
+      {
+        "text": "HIGH",
+        "start": -1,
+        "end": -1,
+        "label": "SEVERITY"
+      }
+    ]
+  },
+  {
+    "complaint_id": "PMC-2024-0007",
+    "raw_text": "Illegal vegetable vendors encroaching the entire footpath near Swargate bus terminal.",
+    "cleaned_text": "Illegal vegetable vendors encroaching the entire footpath near Swargate bus terminal.",
+    "ground_truth_location": "Swargate",
+    "ground_truth_issue": "Illegal Encroachment",
+    "ground_truth_severity": "LOW",
+    "ward": "Ward 09 - Kasba-Vishrambaug Wada",
+    "department": "Encroachment Control Department",
+    "filing_date": "2024-03-04",
+    "status": "Open",
+    "entities": [
+      {
+        "text": "Swargate",
+        "start": 63,
+        "end": 71,
+        "label": "LOCATION"
+      },
+      {
+        "text": "Illegal vegetable vendors",
+        "start": 0,
+        "end": 25,
+        "label": "ISSUE_TYPE"
+      },
+      {
+        "text": "LOW",
+        "start": -1,
+        "end": -1,
+        "label": "SEVERITY"
+      }
+    ]
+  },
+  {
+    "complaint_id": "PMC-2024-0008",
+    "raw_text": "Multiple potholes on bypass junction near Wakad bridge. Two-wheelers slipping daily.",
+    "cleaned_text": "Multiple potholes on bypass junction near Wakad bridge. Two-wheelers slipping daily.",
+    "ground_truth_location": "Wakad",
+    "ground_truth_issue": "Potholes & Road Damage",
+    "ground_truth_severity": "HIGH",
+    "ward": "Ward 01 - Wakad-Tathawade",
+    "department": "Road and Infrastructure Department",
+    "filing_date": "2024-03-04",
+    "status": "Escalated",
+    "entities": [
+      {
+        "text": "Wakad",
+        "start": 42,
+        "end": 47,
+        "label": "LOCATION"
+      },
+      {
+        "text": "potholes",
+        "start": 9,
+        "end": 17,
+        "label": "ISSUE_TYPE"
+      },
+      {
+        "text": "HIGH",
+        "start": -1,
+        "end": -1,
+        "label": "SEVERITY"
+      }
+    ]
+  },
+  {
+    "complaint_id": "PMC-2024-0009",
+    "raw_text": "Drainage manhole cover missing on Karve Road Kothrud. Extreme danger of fatal accident.",
+    "cleaned_text": "Drainage manhole cover missing on Karve Road Kothrud. Extreme danger of fatal accident.",
+    "ground_truth_location": "Kothrud",
+    "ground_truth_issue": "Drainage & Sewerage Leak",
+    "ground_truth_severity": "HIGH",
+    "ward": "Ward 12 - Kothrud-Bavdhan",
+    "department": "Drainage and Sewerage Department",
+    "filing_date": "2024-03-05",
+    "status": "Escalated",
+    "entities": [
+      {
+        "text": "Kothrud",
+        "start": 45,
+        "end": 52,
+        "label": "LOCATION"
+      },
+      {
+        "text": "Drainage manhole",
+        "start": 0,
+        "end": 16,
+        "label": "ISSUE_TYPE"
+      },
+      {
+        "text": "Extreme danger",
+        "start": 54,
+        "end": 68,
+        "label": "SEVERITY"
+      }
+    ]
+  },
+  {
+    "complaint_id": "PMC-2024-0010",
+    "raw_text": "No PMC water supply in Kalyani Nagar lane 7 since yesterday morning. Tanker required.",
+    "cleaned_text": "No PMC water supply in Kalyani Nagar lane 7 since yesterday morning. Tanker required.",
+    "ground_truth_location": "Kalyani Nagar",
+    "ground_truth_issue": "Water Supply Disruption",
+    "ground_truth_severity": "MEDIUM",
+    "ward": "Ward 04 - Ahmednagar Road-Viman Nagar",
+    "department": "Water Supply Department",
+    "filing_date": "2024-03-05",
+    "status": "Open",
+    "entities": [
+      {
+        "text": "Kalyani Nagar",
+        "start": 23,
+        "end": 36,
+        "label": "LOCATION"
+      },
+      {
+        "text": "water supply",
+        "start": 7,
+        "end": 19,
+        "label": "ISSUE_TYPE"
+      },
+      {
+        "text": "since yesterday",
+        "start": 44,
+        "end": 59,
+        "label": "SEVERITY"
+      }
+    ]
+  },
+  {
+    "complaint_id": "PMC-2024-0011",
+    "raw_text": "Flickering streetlights on main road in Koregaon Park near Lane 4. Needs bulb replacement.",
+    "cleaned_text": "Flickering streetlights on main road in Koregaon Park near Lane 4. Needs bulb replacement.",
+    "ground_truth_location": "Koregaon Park",
+    "ground_truth_issue": "Streetlight Outage",
+    "ground_truth_severity": "LOW",
+    "ward": "Ward 06 - Dhole Patil Road",
+    "department": "Electrical and Lighting Department",
+    "filing_date": "2024-03-06",
+    "status": "Open",
+    "entities": [
+      {
+        "text": "Koregaon Park",
+        "start": 40,
+        "end": 53,
+        "label": "LOCATION"
+      },
+      {
+        "text": "streetlights",
+        "start": 11,
+        "end": 23,
+        "label": "ISSUE_TYPE"
+      },
+      {
+        "text": "Needs bulb replacement",
+        "start": 67,
+        "end": 89,
+        "label": "SEVERITY"
+      }
+    ]
+  },
+  {
+    "complaint_id": "PMC-2024-0012",
+    "raw_text": "Open garbage container overflowing with domestic waste near Katraj bus stand. Terrible durgandh.",
+    "cleaned_text": "Open garbage container overflowing with domestic waste near Katraj bus stand. Terrible durgandh.",
+    "ground_truth_location": "Katraj",
+    "ground_truth_issue": "Garbage Dumping",
+    "ground_truth_severity": "MEDIUM",
+    "ward": "Ward 21 - Dhankawadi-Katraj",
+    "department": "Solid Waste Management Department",
+    "filing_date": "2024-03-06",
+    "status": "Open",
+    "entities": [
+      {
+        "text": "Katraj",
+        "start": 60,
+        "end": 66,
+        "label": "LOCATION"
+      },
+      {
+        "text": "garbage",
+        "start": 5,
+        "end": 12,
+        "label": "ISSUE_TYPE"
+      },
+      {
+        "text": "Terrible",
+        "start": 78,
+        "end": 86,
+        "label": "SEVERITY"
+      }
+    ]
+  },
+  {
+    "complaint_id": "PMC-2024-0013",
+    "raw_text": "Minor road surface chipping in Viman Nagar near Symbiosis school. Needs patching.",
+    "cleaned_text": "Minor road surface chipping in Viman Nagar near Symbiosis school. Needs patching.",
+    "ground_truth_location": "Viman Nagar",
+    "ground_truth_issue": "Potholes & Road Damage",
+    "ground_truth_severity": "LOW",
+    "ward": "Ward 04 - Ahmednagar Road-Viman Nagar",
+    "department": "Road and Infrastructure Department",
+    "filing_date": "2024-03-07",
+    "status": "Open",
+    "entities": [
+      {
+        "text": "Viman Nagar",
+        "start": 31,
+        "end": 42,
+        "label": "LOCATION"
+      },
+      {
+        "text": "Minor",
+        "start": 0,
+        "end": 5,
+        "label": "SEVERITY"
+      }
+    ]
+  },
+  {
+    "complaint_id": "PMC-2024-0014",
+    "raw_text": "Choked gatar drainage overflowing into basement shops near Yerawada market. Urgent assistance.",
+    "cleaned_text": "Choked gatar drainage overflowing into basement shops near Yerawada market. Urgent assistance.",
+    "ground_truth_location": "Yerawada",
+    "ground_truth_issue": "Drainage & Sewerage Leak",
+    "ground_truth_severity": "HIGH",
+    "ward": "Ward 05 - Yerawada-Kalas-Dhanori",
+    "department": "Drainage and Sewerage Department",
+    "filing_date": "2024-03-07",
+    "status": "Escalated",
+    "entities": [
+      {
+        "text": "Yerawada",
+        "start": 59,
+        "end": 67,
+        "label": "LOCATION"
+      },
+      {
+        "text": "drainage",
+        "start": 13,
+        "end": 21,
+        "label": "ISSUE_TYPE"
+      },
+      {
+        "text": "Urgent",
+        "start": 76,
+        "end": 82,
+        "label": "SEVERITY"
+      }
+    ]
+  },
+  {
+    "complaint_id": "PMC-2024-0015",
+    "raw_text": "Contaminated yellow tap water coming in pipeline at Bavdhan residential society.",
+    "cleaned_text": "Contaminated yellow tap water coming in pipeline at Bavdhan residential society.",
+    "ground_truth_location": "Bavdhan",
+    "ground_truth_issue": "Water Supply Disruption",
+    "ground_truth_severity": "HIGH",
+    "ward": "Ward 12 - Kothrud-Bavdhan",
+    "department": "Water Supply Department",
+    "filing_date": "2024-03-08",
+    "status": "Escalated",
+    "entities": [
+      {
+        "text": "Bavdhan",
+        "start": 52,
+        "end": 59,
+        "label": "LOCATION"
+      },
+      {
+        "text": "tap water",
+        "start": 20,
+        "end": 29,
+        "label": "ISSUE_TYPE"
+      },
+      {
+        "text": "HIGH",
+        "start": -1,
+        "end": -1,
+        "label": "SEVERITY"
+      }
+    ]
+  },
+  {
+    "complaint_id": "PMC-2024-0016",
+    "raw_text": "Unauthorized tea stall stalls blocking access to public park in Pashan.",
+    "cleaned_text": "Unauthorized tea stall stalls blocking access to public park in Pashan.",
+    "ground_truth_location": "Pashan",
+    "ground_truth_issue": "Illegal Encroachment",
+    "ground_truth_severity": "LOW",
+    "ward": "Ward 02 - Aundh-Baner-Balewadi",
+    "department": "Encroachment Control Department",
+    "filing_date": "2024-03-08",
+    "status": "Open",
+    "entities": [
+      {
+        "text": "Pashan",
+        "start": 64,
+        "end": 70,
+        "label": "LOCATION"
+      },
+      {
+        "text": "Unauthorized tea stall",
+        "start": 0,
+        "end": 22,
+        "label": "ISSUE_TYPE"
+      },
+      {
+        "text": "LOW",
+        "start": -1,
+        "end": -1,
+        "label": "SEVERITY"
+      }
+    ]
+  },
+  {
+    "complaint_id": "PMC-2024-0017",
+    "raw_text": "Streetlight pole leaning dangerously after mini-bus collided near Hadapsar Gadital.",
+    "cleaned_text": "Streetlight pole leaning dangerously after mini-bus collided near Hadapsar Gadital.",
+    "ground_truth_location": "Hadapsar",
+    "ground_truth_issue": "Streetlight Outage",
+    "ground_truth_severity": "HIGH",
+    "ward": "Ward 19 - Hadapsar-Mundhwa",
+    "department": "Electrical and Lighting Department",
+    "filing_date": "2024-03-09",
+    "status": "Escalated",
+    "entities": [
+      {
+        "text": "Hadapsar",
+        "start": 66,
+        "end": 74,
+        "label": "LOCATION"
+      },
+      {
+        "text": "Streetlight pole",
+        "start": 0,
+        "end": 16,
+        "label": "ISSUE_TYPE"
+      },
+      {
+        "text": "HIGH",
+        "start": -1,
+        "end": -1,
+        "label": "SEVERITY"
+      }
+    ]
+  },
+  {
+    "complaint_id": "PMC-2024-0018",
+    "raw_text": "Broken road divider and asphalt potholes near Sinhagad Road flyover landing.",
+    "cleaned_text": "Broken road divider and asphalt potholes near Sinhagad Road flyover landing.",
+    "ground_truth_location": "Sinhagad Road",
+    "ground_truth_issue": "Potholes & Road Damage",
+    "ground_truth_severity": "MEDIUM",
+    "ward": "Ward 14 - Sinhagad Road-Vadgaon",
+    "department": "Road and Infrastructure Department",
+    "filing_date": "2024-03-09",
+    "status": "Open",
+    "entities": [
+      {
+        "text": "Sinhagad Road",
+        "start": 46,
+        "end": 59,
+        "label": "LOCATION"
+      },
+      {
+        "text": "potholes",
+        "start": 32,
+        "end": 40,
+        "label": "ISSUE_TYPE"
+      },
+      {
+        "text": "MEDIUM",
+        "start": -1,
+        "end": -1,
+        "label": "SEVERITY"
+      }
+    ]
+  },
+  {
+    "complaint_id": "PMC-2024-0019",
+    "raw_text": "Dead animals and wet garbage rotting on open plot in Bibwewadi. Health hazard.",
+    "cleaned_text": "Dead animals and wet garbage rotting on open plot in Bibwewadi. Health hazard.",
+    "ground_truth_location": "Bibwewadi",
+    "ground_truth_issue": "Garbage Dumping",
+    "ground_truth_severity": "HIGH",
+    "ward": "Ward 20 - Bibwewadi-Sahakarnagar",
+    "department": "Solid Waste Management Department",
+    "filing_date": "2024-03-10",
+    "status": "Escalated",
+    "entities": [
+      {
+        "text": "Bibwewadi",
+        "start": 53,
+        "end": 62,
+        "label": "LOCATION"
+      },
+      {
+        "text": "garbage",
+        "start": 21,
+        "end": 28,
+        "label": "ISSUE_TYPE"
+      },
+      {
+        "text": "Health hazard",
+        "start": 64,
+        "end": 77,
+        "label": "SEVERITY"
+      }
+    ]
+  },
+  {
+    "complaint_id": "PMC-2024-0020",
+    "raw_text": "Broken water distribution pipeline wasting thousands of litres daily in Dhanori.",
+    "cleaned_text": "Broken water distribution pipeline wasting thousands of litres daily in Dhanori.",
+    "ground_truth_location": "Dhanori",
+    "ground_truth_issue": "Water Supply Disruption",
+    "ground_truth_severity": "MEDIUM",
+    "ward": "Ward 05 - Yerawada-Kalas-Dhanori",
+    "department": "Water Supply Department",
+    "filing_date": "2024-03-10",
+    "status": "Open",
+    "entities": [
+      {
+        "text": "Dhanori",
+        "start": 72,
+        "end": 79,
+        "label": "LOCATION"
+      },
+      {
+        "text": "water distribution pipeline",
+        "start": 7,
+        "end": 34,
+        "label": "ISSUE_TYPE"
+      },
+      {
+        "text": "wasting",
+        "start": 35,
+        "end": 42,
+        "label": "SEVERITY"
+      }
+    ]
+  },
+  {
+    "complaint_id": "PMC-2024-0021",
+    "raw_text": "Gutter cover broken near commercial plaza in Baner. Foul water pooling on footpath.",
+    "cleaned_text": "Gutter cover broken near commercial plaza in Baner. Foul water pooling on footpath.",
+    "ground_truth_location": "Baner",
+    "ground_truth_issue": "Drainage & Sewerage Leak",
+    "ground_truth_severity": "MEDIUM",
+    "ward": "Ward 02 - Aundh-Baner-Balewadi",
+    "department": "Drainage and Sewerage Department",
+    "filing_date": "2024-03-11",
+    "status": "Open",
+    "entities": [
+      {
+        "text": "Baner",
+        "start": 45,
+        "end": 50,
+        "label": "LOCATION"
+      },
+      {
+        "text": "pooling",
+        "start": 63,
+        "end": 70,
+        "label": "SEVERITY"
+      }
+    ]
+  },
+  {
+    "complaint_id": "PMC-2024-0022",
+    "raw_text": "Hawkers setting up illegal sheds on busy walking plaza in Aundh. Traffic choked.",
+    "cleaned_text": "Hawkers setting up illegal sheds on busy walking plaza in Aundh. Traffic choked.",
+    "ground_truth_location": "Aundh",
+    "ground_truth_issue": "Illegal Encroachment",
+    "ground_truth_severity": "LOW",
+    "ward": "Ward 02 - Aundh-Baner-Balewadi",
+    "department": "Encroachment Control Department",
+    "filing_date": "2024-03-11",
+    "status": "Open",
+    "entities": [
+      {
+        "text": "Aundh",
+        "start": 58,
+        "end": 63,
+        "label": "LOCATION"
+      },
+      {
+        "text": "illegal",
+        "start": 19,
+        "end": 26,
+        "label": "ISSUE_TYPE"
+      },
+      {
+        "text": "LOW",
+        "start": -1,
+        "end": -1,
+        "label": "SEVERITY"
+      }
+    ]
+  },
+  {
+    "complaint_id": "PMC-2024-0023",
+    "raw_text": "Continuous water supply leakage from valve chamber near Shivajinagar railway gate.",
+    "cleaned_text": "Continuous water supply leakage from valve chamber near Shivajinagar railway gate.",
+    "ground_truth_location": "Shivajinagar",
+    "ground_truth_issue": "Water Supply Disruption",
+    "ground_truth_severity": "LOW",
+    "ward": "Ward 07 - Shivajinagar-Ghole Road",
+    "department": "Water Supply Department",
+    "filing_date": "2024-03-12",
+    "status": "Open",
+    "entities": [
+      {
+        "text": "Shivajinagar",
+        "start": 56,
+        "end": 68,
+        "label": "LOCATION"
+      },
+      {
+        "text": "water supply",
+        "start": 11,
+        "end": 23,
+        "label": "ISSUE_TYPE"
+      },
+      {
+        "text": "LOW",
+        "start": -1,
+        "end": -1,
+        "label": "SEVERITY"
+      }
+    ]
+  },
+  {
+    "complaint_id": "PMC-2024-0024",
+    "raw_text": "Three streetlights not working in row near Wakad Dutta Mandir road.",
+    "cleaned_text": "Three streetlights not working in row near Wakad Dutta Mandir road.",
+    "ground_truth_location": "Wakad",
+    "ground_truth_issue": "Streetlight Outage",
+    "ground_truth_severity": "LOW",
+    "ward": "Ward 01 - Wakad-Tathawade",
+    "department": "Electrical and Lighting Department",
+    "filing_date": "2024-03-12",
+    "status": "Open",
+    "entities": [
+      {
+        "text": "Wakad",
+        "start": 43,
+        "end": 48,
+        "label": "LOCATION"
+      },
+      {
+        "text": "streetlights",
+        "start": 6,
+        "end": 18,
+        "label": "ISSUE_TYPE"
+      },
+      {
+        "text": "LOW",
+        "start": -1,
+        "end": -1,
+        "label": "SEVERITY"
+      }
+    ]
+  },
+  {
+    "complaint_id": "PMC-2024-0025",
+    "raw_text": "Uneven road leveling and tar peeling off after pipeline work in Kothrud near MIT college.",
+    "cleaned_text": "Uneven road leveling and tar peeling off after pipeline work in Kothrud near MIT college.",
+    "ground_truth_location": "Kothrud",
+    "ground_truth_issue": "Potholes & Road Damage",
+    "ground_truth_severity": "MEDIUM",
+    "ward": "Ward 12 - Kothrud-Bavdhan",
+    "department": "Road and Infrastructure Department",
+    "filing_date": "2024-03-13",
+    "status": "Open",
+    "entities": [
+      {
+        "text": "Kothrud",
+        "start": 64,
+        "end": 71,
+        "label": "LOCATION"
+      },
+      {
+        "text": "Uneven road",
+        "start": 0,
+        "end": 11,
+        "label": "ISSUE_TYPE"
+      },
+      {
+        "text": "Uneven",
+        "start": 0,
+        "end": 6,
+        "label": "SEVERITY"
+      }
+    ]
+  },
+  {
+    "complaint_id": "PMC-2024-0026",
+    "raw_text": "Massive sewage drainage burst in Baner near Pancard Club road. Gutter water entering homes!",
+    "cleaned_text": "Massive sewage drainage burst in Baner near Pancard Club road. Gutter water entering homes!",
+    "ground_truth_location": "Baner",
+    "ground_truth_issue": "Drainage & Sewerage Leak",
+    "ground_truth_severity": "HIGH",
+    "ward": "Ward 02 - Aundh-Baner-Balewadi",
+    "department": "Drainage and Sewerage Department",
+    "filing_date": "2024-03-14",
+    "status": "Escalated",
+    "entities": [
+      {
+        "text": "Baner",
+        "start": 33,
+        "end": 38,
+        "label": "LOCATION"
+      },
+      {
+        "text": "sewage drainage burst",
+        "start": 8,
+        "end": 29,
+        "label": "ISSUE_TYPE"
+      },
+      {
+        "text": "Massive",
+        "start": 0,
+        "end": 7,
+        "label": "SEVERITY"
+      }
+    ]
+  },
+  {
+    "complaint_id": "PMC-2024-0027",
+    "raw_text": "Drainage line completely blocked in Baner sector 3. Stagnant filthy water flood on street.",
+    "cleaned_text": "Drainage line completely blocked in Baner sector 3. Stagnant filthy water flood on street.",
+    "ground_truth_location": "Baner",
+    "ground_truth_issue": "Drainage & Sewerage Leak",
+    "ground_truth_severity": "HIGH",
+    "ward": "Ward 02 - Aundh-Baner-Balewadi",
+    "department": "Drainage and Sewerage Department",
+    "filing_date": "2024-03-14",
+    "status": "Escalated",
+    "entities": [
+      {
+        "text": "Baner",
+        "start": 36,
+        "end": 41,
+        "label": "LOCATION"
+      },
+      {
+        "text": "Drainage line",
+        "start": 0,
+        "end": 13,
+        "label": "ISSUE_TYPE"
+      },
+      {
+        "text": "HIGH",
+        "start": -1,
+        "end": -1,
+        "label": "SEVERITY"
+      }
+    ]
+  },
+  {
+    "complaint_id": "PMC-2024-0028",
+    "raw_text": "Foul smell and overflowing manhole on Baner High Street. Critical health emergency for residents.",
+    "cleaned_text": "Foul smell and overflowing manhole on Baner High Street. Critical health emergency for residents.",
+    "ground_truth_location": "Baner",
+    "ground_truth_issue": "Drainage & Sewerage Leak",
+    "ground_truth_severity": "HIGH",
+    "ward": "Ward 02 - Aundh-Baner-Balewadi",
+    "department": "Drainage and Sewerage Department",
+    "filing_date": "2024-03-14",
+    "status": "Escalated",
+    "entities": [
+      {
+        "text": "Baner",
+        "start": 38,
+        "end": 43,
+        "label": "LOCATION"
+      },
+      {
+        "text": "Critical",
+        "start": 57,
+        "end": 65,
+        "label": "SEVERITY"
+      }
+    ]
+  },
+  {
+    "complaint_id": "PMC-2024-0029",
+    "raw_text": "Sewage water backflowing into ground floor apartments in Baner. Urgent pump team needed.",
+    "cleaned_text": "Sewage water backflowing into ground floor apartments in Baner. Urgent pump team needed.",
+    "ground_truth_location": "Baner",
+    "ground_truth_issue": "Drainage & Sewerage Leak",
+    "ground_truth_severity": "HIGH",
+    "ward": "Ward 02 - Aundh-Baner-Balewadi",
+    "department": "Drainage and Sewerage Department",
+    "filing_date": "2024-03-14",
+    "status": "Escalated",
+    "entities": [
+      {
+        "text": "Baner",
+        "start": 57,
+        "end": 62,
+        "label": "LOCATION"
+      },
+      {
+        "text": "Sewage water",
+        "start": 0,
+        "end": 12,
+        "label": "ISSUE_TYPE"
+      },
+      {
+        "text": "Urgent",
+        "start": 64,
+        "end": 70,
+        "label": "SEVERITY"
+      }
+    ]
+  },
+  {
+    "complaint_id": "PMC-2024-0030",
+    "raw_text": "Main underground sewer collapsed in Baner near highway underpass. Road submerged in sludge.",
+    "cleaned_text": "Main underground sewer collapsed in Baner near highway underpass. Road submerged in sludge.",
+    "ground_truth_location": "Baner",
+    "ground_truth_issue": "Drainage & Sewerage Leak",
+    "ground_truth_severity": "HIGH",
+    "ward": "Ward 02 - Aundh-Baner-Balewadi",
+    "department": "Drainage and Sewerage Department",
+    "filing_date": "2024-03-15",
+    "status": "Escalated",
+    "entities": [
+      {
+        "text": "Baner",
+        "start": 36,
+        "end": 41,
+        "label": "LOCATION"
+      },
+      {
+        "text": "sewer",
+        "start": 17,
+        "end": 22,
+        "label": "ISSUE_TYPE"
+      },
+      {
+        "text": "HIGH",
+        "start": -1,
+        "end": -1,
+        "label": "SEVERITY"
+      }
+    ]
+  },
+  {
+    "complaint_id": "PMC-2024-0031",
+    "raw_text": "Disgusting sewer leak on Baner Pashan link road. Commuters cannot cross.",
+    "cleaned_text": "Disgusting sewer leak on Baner Pashan link road. Commuters cannot cross.",
+    "ground_truth_location": "Baner",
+    "ground_truth_issue": "Drainage & Sewerage Leak",
+    "ground_truth_severity": "HIGH",
+    "ward": "Ward 02 - Aundh-Baner-Balewadi",
+    "department": "Drainage and Sewerage Department",
+    "filing_date": "2024-03-15",
+    "status": "Escalated",
+    "entities": [
+      {
+        "text": "Baner",
+        "start": 25,
+        "end": 30,
+        "label": "LOCATION"
+      },
+      {
+        "text": "sewer leak",
+        "start": 11,
+        "end": 21,
+        "label": "ISSUE_TYPE"
+      },
+      {
+        "text": "HIGH",
+        "start": -1,
+        "end": -1,
+        "label": "SEVERITY"
+      }
+    ]
+  },
+  {
+    "complaint_id": "PMC-2024-0032",
+    "raw_text": "Choked gatar line in Baner village area overflowing into local vegetable market.",
+    "cleaned_text": "Choked gatar line in Baner village area overflowing into local vegetable market.",
+    "ground_truth_location": "Baner",
+    "ground_truth_issue": "Drainage & Sewerage Leak",
+    "ground_truth_severity": "HIGH",
+    "ward": "Ward 02 - Aundh-Baner-Balewadi",
+    "department": "Drainage and Sewerage Department",
+    "filing_date": "2024-03-15",
+    "status": "Escalated",
+    "entities": [
+      {
+        "text": "Baner",
+        "start": 21,
+        "end": 26,
+        "label": "LOCATION"
+      },
+      {
+        "text": "gatar",
+        "start": 7,
+        "end": 12,
+        "label": "ISSUE_TYPE"
+      },
+      {
+        "text": "HIGH",
+        "start": -1,
+        "end": -1,
+        "label": "SEVERITY"
+      }
+    ]
+  },
+  {
+    "complaint_id": "PMC-2024-0033",
+    "raw_text": "Sanitation strike impact: mountains of uncollected kachra garbage piled in Kothrud ward.",
+    "cleaned_text": "Sanitation strike impact: mountains of uncollected kachra garbage piled in Kothrud ward.",
+    "ground_truth_location": "Kothrud",
+    "ground_truth_issue": "Garbage Dumping",
+    "ground_truth_severity": "HIGH",
+    "ward": "Ward 12 - Kothrud-Bavdhan",
+    "department": "Solid Waste Management Department",
+    "filing_date": "2024-03-18",
+    "status": "Escalated",
+    "entities": [
+      {
+        "text": "Kothrud",
+        "start": 75,
+        "end": 82,
+        "label": "LOCATION"
+      },
+      {
+        "text": "garbage",
+        "start": 58,
+        "end": 65,
+        "label": "ISSUE_TYPE"
+      },
+      {
+        "text": "HIGH",
+        "start": -1,
+        "end": -1,
+        "label": "SEVERITY"
+      }
+    ]
+  },
+  {
+    "complaint_id": "PMC-2024-0034",
+    "raw_text": "Garbage dumping everywhere along Paud Road Kothrud. Rotten stink and stray cattle menace.",
+    "cleaned_text": "Garbage dumping everywhere along Paud Road Kothrud. Rotten stink and stray cattle menace.",
+    "ground_truth_location": "Kothrud",
+    "ground_truth_issue": "Garbage Dumping",
+    "ground_truth_severity": "HIGH",
+    "ward": "Ward 12 - Kothrud-Bavdhan",
+    "department": "Solid Waste Management Department",
+    "filing_date": "2024-03-18",
+    "status": "Escalated",
+    "entities": [
+      {
+        "text": "Kothrud",
+        "start": 43,
+        "end": 50,
+        "label": "LOCATION"
+      },
+      {
+        "text": "Garbage dumping",
+        "start": 0,
+        "end": 15,
+        "label": "ISSUE_TYPE"
+      },
+      {
+        "text": "HIGH",
+        "start": -1,
+        "end": -1,
+        "label": "SEVERITY"
+      }
+    ]
+  },
+  {
+    "complaint_id": "PMC-2024-0035",
+    "raw_text": "Huge solid waste accumulation outside Kothrud vegetable market. Not cleared for 4 days.",
+    "cleaned_text": "Huge solid waste accumulation outside Kothrud vegetable market. Not cleared for 4 days.",
+    "ground_truth_location": "Kothrud",
+    "ground_truth_issue": "Garbage Dumping",
+    "ground_truth_severity": "HIGH",
+    "ward": "Ward 12 - Kothrud-Bavdhan",
+    "department": "Solid Waste Management Department",
+    "filing_date": "2024-03-18",
+    "status": "Escalated",
+    "entities": [
+      {
+        "text": "Kothrud",
+        "start": 38,
+        "end": 45,
+        "label": "LOCATION"
+      },
+      {
+        "text": "solid waste",
+        "start": 5,
+        "end": 16,
+        "label": "ISSUE_TYPE"
+      },
+      {
+        "text": "HIGH",
+        "start": -1,
+        "end": -1,
+        "label": "SEVERITY"
+      }
+    ]
+  },
+  {
+    "complaint_id": "PMC-2024-0036",
+    "raw_text": "Overflowing dumper bin with rotting medical waste near Kothrud hospital. Immediate evacuation required.",
+    "cleaned_text": "Overflowing dumper bin with rotting medical waste near Kothrud hospital. Immediate evacuation required.",
+    "ground_truth_location": "Kothrud",
+    "ground_truth_issue": "Garbage Dumping",
+    "ground_truth_severity": "HIGH",
+    "ward": "Ward 12 - Kothrud-Bavdhan",
+    "department": "Solid Waste Management Department",
+    "filing_date": "2024-03-18",
+    "status": "Escalated",
+    "entities": [
+      {
+        "text": "Kothrud",
+        "start": 55,
+        "end": 62,
+        "label": "LOCATION"
+      },
+      {
+        "text": "rotting medical waste",
+        "start": 28,
+        "end": 49,
+        "label": "ISSUE_TYPE"
+      },
+      {
+        "text": "Immediate",
+        "start": 73,
+        "end": 82,
+        "label": "SEVERITY"
+      }
+    ]
+  },
+  {
+    "complaint_id": "PMC-2024-0037",
+    "raw_text": "Illegal open garbage burning generating toxic smoke near Kothrud hill base.",
+    "cleaned_text": "Illegal open garbage burning generating toxic smoke near Kothrud hill base.",
+    "ground_truth_location": "Kothrud",
+    "ground_truth_issue": "Garbage Dumping",
+    "ground_truth_severity": "HIGH",
+    "ward": "Ward 12 - Kothrud-Bavdhan",
+    "department": "Solid Waste Management Department",
+    "filing_date": "2024-03-19",
+    "status": "Escalated",
+    "entities": [
+      {
+        "text": "Kothrud",
+        "start": 57,
+        "end": 64,
+        "label": "LOCATION"
+      },
+      {
+        "text": "garbage",
+        "start": 13,
+        "end": 20,
+        "label": "ISSUE_TYPE"
+      },
+      {
+        "text": "HIGH",
+        "start": -1,
+        "end": -1,
+        "label": "SEVERITY"
+      }
+    ]
+  },
+  {
+    "complaint_id": "PMC-2024-0038",
+    "raw_text": "Waste disposal vehicle not visiting Anand Nagar Kothrud. Residents throwing garbage on road.",
+    "cleaned_text": "Waste disposal vehicle not visiting Anand Nagar Kothrud. Residents throwing garbage on road.",
+    "ground_truth_location": "Kothrud",
+    "ground_truth_issue": "Garbage Dumping",
+    "ground_truth_severity": "MEDIUM",
+    "ward": "Ward 12 - Kothrud-Bavdhan",
+    "department": "Solid Waste Management Department",
+    "filing_date": "2024-03-19",
+    "status": "Open",
+    "entities": [
+      {
+        "text": "Kothrud",
+        "start": 48,
+        "end": 55,
+        "label": "LOCATION"
+      },
+      {
+        "text": "garbage",
+        "start": 76,
+        "end": 83,
+        "label": "ISSUE_TYPE"
+      },
+      {
+        "text": "MEDIUM",
+        "start": -1,
+        "end": -1,
+        "label": "SEVERITY"
+      }
+    ]
+  },
+  {
+    "complaint_id": "PMC-2024-0039",
+    "raw_text": "Huge mound of household trash blocking entrance of society in Kothrud.",
+    "cleaned_text": "Huge mound of household trash blocking entrance of society in Kothrud.",
+    "ground_truth_location": "Kothrud",
+    "ground_truth_issue": "Garbage Dumping",
+    "ground_truth_severity": "HIGH",
+    "ward": "Ward 12 - Kothrud-Bavdhan",
+    "department": "Solid Waste Management Department",
+    "filing_date": "2024-03-19",
+    "status": "Escalated",
+    "entities": [
+      {
+        "text": "Kothrud",
+        "start": 62,
+        "end": 69,
+        "label": "LOCATION"
+      },
+      {
+        "text": "trash",
+        "start": 24,
+        "end": 29,
+        "label": "ISSUE_TYPE"
+      },
+      {
+        "text": "HIGH",
+        "start": -1,
+        "end": -1,
+        "label": "SEVERITY"
+      }
+    ]
+  },
+  {
+    "complaint_id": "PMC-2024-0040",
+    "raw_text": "Multiple heavy potholes near Hinjewadi Phase 3 circle causing 2 hour delay.",
+    "cleaned_text": "Multiple heavy potholes near Hinjewadi Phase 3 circle causing 2 hour delay.",
+    "ground_truth_location": "Hinjewadi",
+    "ground_truth_issue": "Potholes & Road Damage",
+    "ground_truth_severity": "HIGH",
+    "ward": "Ward 01 - Hinjewadi-Maan IT Corridor",
+    "department": "Road and Infrastructure Department",
+    "filing_date": "2024-03-20",
+    "status": "Escalated",
+    "entities": [
+      {
+        "text": "Hinjewadi",
+        "start": 29,
+        "end": 38,
+        "label": "LOCATION"
+      },
+      {
+        "text": "potholes",
+        "start": 15,
+        "end": 23,
+        "label": "ISSUE_TYPE"
+      },
+      {
+        "text": "HIGH",
+        "start": -1,
+        "end": -1,
+        "label": "SEVERITY"
+      }
+    ]
+  },
+  {
+    "complaint_id": "PMC-2024-0041",
+    "raw_text": "Zero water supply in Viman Nagar lane 2 since 48 hours. Tankers overcharging.",
+    "cleaned_text": "Zero water supply in Viman Nagar lane 2 since 48 hours. Tankers overcharging.",
+    "ground_truth_location": "Viman Nagar",
+    "ground_truth_issue": "Water Supply Disruption",
+    "ground_truth_severity": "HIGH",
+    "ward": "Ward 04 - Ahmednagar Road-Viman Nagar",
+    "department": "Water Supply Department",
+    "filing_date": "2024-03-20",
+    "status": "Escalated",
+    "entities": [
+      {
+        "text": "Viman Nagar",
+        "start": 21,
+        "end": 32,
+        "label": "LOCATION"
+      },
+      {
+        "text": "water supply",
+        "start": 5,
+        "end": 17,
+        "label": "ISSUE_TYPE"
+      },
+      {
+        "text": "HIGH",
+        "start": -1,
+        "end": -1,
+        "label": "SEVERITY"
+      }
+    ]
+  },
+  {
+    "complaint_id": "PMC-2024-0042",
+    "raw_text": "Streetlights non-functional on Hadapsar railway flyover. Dark and dangerous.",
+    "cleaned_text": "Streetlights non-functional on Hadapsar railway flyover. Dark and dangerous.",
+    "ground_truth_location": "Hadapsar",
+    "ground_truth_issue": "Streetlight Outage",
+    "ground_truth_severity": "MEDIUM",
+    "ward": "Ward 19 - Hadapsar-Mundhwa",
+    "department": "Electrical and Lighting Department",
+    "filing_date": "2024-03-21",
+    "status": "Open",
+    "entities": [
+      {
+        "text": "Hadapsar",
+        "start": 31,
+        "end": 39,
+        "label": "LOCATION"
+      },
+      {
+        "text": "Streetlights",
+        "start": 0,
+        "end": 12,
+        "label": "ISSUE_TYPE"
+      },
+      {
+        "text": "MEDIUM",
+        "start": -1,
+        "end": -1,
+        "label": "SEVERITY"
+      }
+    ]
+  },
+  {
+    "complaint_id": "PMC-2024-0043",
+    "raw_text": "Illegal street food vendors blocking pedestrian walkway near Kalyani Nagar bridge.",
+    "cleaned_text": "Illegal street food vendors blocking pedestrian walkway near Kalyani Nagar bridge.",
+    "ground_truth_location": "Kalyani Nagar",
+    "ground_truth_issue": "Illegal Encroachment",
+    "ground_truth_severity": "LOW",
+    "ward": "Ward 04 - Ahmednagar Road-Viman Nagar",
+    "department": "Encroachment Control Department",
+    "filing_date": "2024-03-21",
+    "status": "Open",
+    "entities": [
+      {
+        "text": "Kalyani Nagar",
+        "start": 61,
+        "end": 74,
+        "label": "LOCATION"
+      },
+      {
+        "text": "Illegal street food vendors",
+        "start": 0,
+        "end": 27,
+        "label": "ISSUE_TYPE"
+      },
+      {
+        "text": "LOW",
+        "start": -1,
+        "end": -1,
+        "label": "SEVERITY"
+      }
+    ]
+  },
+  {
+    "complaint_id": "PMC-2024-0044",
+    "raw_text": "Overflowing drainage chamber near Katraj snake park road. Smelling awful.",
+    "cleaned_text": "Overflowing drainage chamber near Katraj snake park road. Smelling awful.",
+    "ground_truth_location": "Katraj",
+    "ground_truth_issue": "Drainage & Sewerage Leak",
+    "ground_truth_severity": "MEDIUM",
+    "ward": "Ward 21 - Dhankawadi-Katraj",
+    "department": "Drainage and Sewerage Department",
+    "filing_date": "2024-03-21",
+    "status": "Open",
+    "entities": [
+      {
+        "text": "Katraj",
+        "start": 34,
+        "end": 40,
+        "label": "LOCATION"
+      },
+      {
+        "text": "drainage",
+        "start": 12,
+        "end": 20,
+        "label": "ISSUE_TYPE"
+      },
+      {
+        "text": "MEDIUM",
+        "start": -1,
+        "end": -1,
+        "label": "SEVERITY"
+      }
+    ]
+  },
+  {
+    "complaint_id": "PMC-2024-0045",
+    "raw_text": "Potholes reappearing after rain on Karve Nagar main chowk.",
+    "cleaned_text": "Potholes reappearing after rain on Karve Nagar main chowk.",
+    "ground_truth_location": "Karve Nagar",
+    "ground_truth_issue": "Potholes & Road Damage",
+    "ground_truth_severity": "MEDIUM",
+    "ward": "Ward 13 - Karve Nagar-Warje",
+    "department": "Road and Infrastructure Department",
+    "filing_date": "2024-03-22",
+    "status": "Open",
+    "entities": [
+      {
+        "text": "Karve Nagar",
+        "start": 35,
+        "end": 46,
+        "label": "LOCATION"
+      },
+      {
+        "text": "Potholes",
+        "start": 0,
+        "end": 8,
+        "label": "ISSUE_TYPE"
+      },
+      {
+        "text": "MEDIUM",
+        "start": -1,
+        "end": -1,
+        "label": "SEVERITY"
+      }
+    ]
+  },
+  {
+    "complaint_id": "PMC-2024-0046",
+    "raw_text": "Pipes ruptured during metro construction work near Shivajinagar. Clean water overflowing.",
+    "cleaned_text": "Pipes ruptured during metro construction work near Shivajinagar. Clean water overflowing.",
+    "ground_truth_location": "Shivajinagar",
+    "ground_truth_issue": "Water Supply Disruption",
+    "ground_truth_severity": "MEDIUM",
+    "ward": "Ward 07 - Shivajinagar-Ghole Road",
+    "department": "Water Supply Department",
+    "filing_date": "2024-03-22",
+    "status": "Open",
+    "entities": [
+      {
+        "text": "Shivajinagar",
+        "start": 51,
+        "end": 63,
+        "label": "LOCATION"
+      },
+      {
+        "text": "water",
+        "start": 71,
+        "end": 76,
+        "label": "ISSUE_TYPE"
+      },
+      {
+        "text": "MEDIUM",
+        "start": -1,
+        "end": -1,
+        "label": "SEVERITY"
+      }
+    ]
+  },
+  {
+    "complaint_id": "PMC-2024-0047",
+    "raw_text": "Streetlight switchboard open with exposed live wires in Aundh. Serious safety hazard for kids.",
+    "cleaned_text": "Streetlight switchboard open with exposed live wires in Aundh. Serious safety hazard for kids.",
+    "ground_truth_location": "Aundh",
+    "ground_truth_issue": "Streetlight Outage",
+    "ground_truth_severity": "HIGH",
+    "ward": "Ward 02 - Aundh-Baner-Balewadi",
+    "department": "Electrical and Lighting Department",
+    "filing_date": "2024-03-22",
+    "status": "Escalated",
+    "entities": [
+      {
+        "text": "Aundh",
+        "start": 56,
+        "end": 61,
+        "label": "LOCATION"
+      },
+      {
+        "text": "Streetlight",
+        "start": 0,
+        "end": 11,
+        "label": "ISSUE_TYPE"
+      },
+      {
+        "text": "Serious safety hazard",
+        "start": 63,
+        "end": 84,
+        "label": "SEVERITY"
+      }
+    ]
+  },
+  {
+    "complaint_id": "PMC-2024-0048",
+    "raw_text": "Illegal car parking garages encroaching public service road in Hinjewadi.",
+    "cleaned_text": "Illegal car parking garages encroaching public service road in Hinjewadi.",
+    "ground_truth_location": "Hinjewadi",
+    "ground_truth_issue": "Illegal Encroachment",
+    "ground_truth_severity": "LOW",
+    "ward": "Ward 01 - Hinjewadi-Maan IT Corridor",
+    "department": "Encroachment Control Department",
+    "filing_date": "2024-03-22",
+    "status": "Open",
+    "entities": [
+      {
+        "text": "Hinjewadi",
+        "start": 63,
+        "end": 72,
+        "label": "LOCATION"
+      },
+      {
+        "text": "encroaching",
+        "start": 28,
+        "end": 39,
+        "label": "ISSUE_TYPE"
+      },
+      {
+        "text": "LOW",
+        "start": -1,
+        "end": -1,
+        "label": "SEVERITY"
+      }
+    ]
+  },
+  {
+    "complaint_id": "PMC-2024-0049",
+    "raw_text": "Garbage dumping in storm water nullah near Bavdhan junction.",
+    "cleaned_text": "Garbage dumping in storm water nullah near Bavdhan junction.",
+    "ground_truth_location": "Bavdhan",
+    "ground_truth_issue": "Garbage Dumping",
+    "ground_truth_severity": "MEDIUM",
+    "ward": "Ward 12 - Kothrud-Bavdhan",
+    "department": "Solid Waste Management Department",
+    "filing_date": "2024-03-22",
+    "status": "Open",
+    "entities": [
+      {
+        "text": "Bavdhan",
+        "start": 43,
+        "end": 50,
+        "label": "LOCATION"
+      },
+      {
+        "text": "Garbage dumping",
+        "start": 0,
+        "end": 15,
+        "label": "ISSUE_TYPE"
+      },
+      {
+        "text": "MEDIUM",
+        "start": -1,
+        "end": -1,
+        "label": "SEVERITY"
+      }
+    ]
+  },
+  {
+    "complaint_id": "PMC-2024-0050",
+    "raw_text": "Deep pothole crater near Swargate Jedhe flyover ascent.",
+    "cleaned_text": "Deep pothole crater near Swargate Jedhe flyover ascent.",
+    "ground_truth_location": "Swargate",
+    "ground_truth_issue": "Potholes & Road Damage",
+    "ground_truth_severity": "HIGH",
+    "ward": "Ward 09 - Kasba-Vishrambaug Wada",
+    "department": "Road and Infrastructure Department",
+    "filing_date": "2024-03-22",
+    "status": "Escalated",
+    "entities": [
+      {
+        "text": "Swargate",
+        "start": 25,
+        "end": 33,
+        "label": "LOCATION"
+      },
+      {
+        "text": "pothole",
+        "start": 5,
+        "end": 12,
+        "label": "ISSUE_TYPE"
+      },
+      {
+        "text": "HIGH",
+        "start": -1,
+        "end": -1,
+        "label": "SEVERITY"
+      }
+    ]
+  }
+]
